@@ -1,0 +1,21 @@
+composer:
+  last: Haydn
+  first: Johann Michael
+title: Attale et Erimene
+id: MH 11
+genre: cantata
+scoring: S, A, T (solo), S, A, T, B (coro), 2 cor (), 2 clno (), timp (), 2 vl, vla, bc
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: F-Pn
+    shelfmark: MS-128
+    date: 1754–1770
+    rism: 840016274
+    url: https://gallica.bnf.fr/ark:/12148/btv1b7400089m
+    license: custom (free for non-commercial purposes)
+    principal: true
+imslp:
+parts:
+  cor12:
+  ottoni: Clarino I, II in C\\Timpani in C–G
