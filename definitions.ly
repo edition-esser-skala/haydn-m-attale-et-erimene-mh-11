@@ -7,6 +7,12 @@
 
 
 tempoInimica = \tempoMarkup "Presto"
+  tempoInimicaB = \tempoMarkup "Recitativo"
+  tempoInimicaC = \tempoMarkup "Presto"
+  tempoInimicaD = \tempoMarkup "[Recitativo]"
+  tempoInimicaE = \tempoMarkup "[Presto]"
+  tempoInimicaF = \tempoMarkup "[Recitativo]"
+  tempoInimicaG = \tempoMarkup "[Presto]"
 
 
 \include "notes/cor1.ly"
