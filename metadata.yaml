@@ -4,7 +4,7 @@ composer:
 title: Attale et Erimene
 id: MH 11
 genre: cantata
-scoring: S, A, T (solo), S, A, T, B (coro), 2 cor (), 2 clno (), timp (), 2 vl, vla, bc
+scoring: S, A, T (solo), S, A, T, B (coro), 2 cor (D), 2 clno (), timp (), 2 vl, vla, bc
 license: cc-by-sa-4.0
 sources:
   A1:
@@ -17,5 +17,5 @@ sources:
     principal: true
 imslp:
 parts:
-  cor12:
-  ottoni: Clarino I, II in C\\Timpani in C–G
+  cor12: Corno I, II in D
+  ottoni: Clarino I, II in \\Timpani in

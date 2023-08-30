@@ -13,6 +13,7 @@ tempoInimica = \tempoMarkup "Presto"
   tempoInimicaE = \tempoMarkup "[Presto]"
   tempoInimicaF = \tempoMarkup "[Recitativo]"
   tempoInimicaG = \tempoMarkup "[Presto]"
+tempoVixit = \tempoMarkup "Allegro assai"
 
 
 \include "notes/cor1.ly"
