@@ -108,30 +108,70 @@
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3" "Recitativo" "Pantaleon! Omnem absterge"
+  %   \addTocLabel "pantaleon"
+  %   \paper { systems-per-page = #3 }
+  %   \score { %\articulate
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \PantaleonTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \PantaleonTenoreLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \PantaleonBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \PantaleonBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
-    \section "3" "Recitativo" "Pantaleon! Omnem absterge"
-    \addTocLabel "pantaleon"
-    \paper { systems-per-page = #3 }
+    \section "4" "Aria" "Si aliquam mei tenes imaginem"
+    \addTocLabel "aliquam"
+    \paper {
+      system-system-spacing.basic-distance = #22
+      system-system-spacing.minimum-distance = #22
+      systems-per-page = #3
+    }
     \score { %\articulate
       <<
+        \new StaffGroup \with { \smallGroupDistance } <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "vl" "1, 2" }
+            \AliquamViolinoIeII
+          }
+          \new Staff {
+            \set Staff.instrumentName = "vla"
+            \AliquamViola
+          }
+        >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \PantaleonTenore }
+            \new Voice = "Tenore" { \dynamicUp \AliquamTenore }
           }
-          \new Lyrics \lyricsto Tenore \PantaleonTenoreLyrics
+          \new Lyrics \lyricsto Tenore \AliquamTenoreLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \PantaleonBassoContinuo
+            \AliquamBassoContinuo
           }
         >>
-        \new FiguredBass { \PantaleonBassFigures }
+        \new FiguredBass { \AliquamBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 120 }
     }
   }
 }

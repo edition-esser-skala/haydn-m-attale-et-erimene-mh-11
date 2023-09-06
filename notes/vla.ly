@@ -172,3 +172,165 @@ VixitViola = {
     h\f h, r h' cis cis, r cis' \markDaCapo \bar "||" %139 finis
   }
 }
+
+AliquamViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 3/4 \tempoAliquam
+    h2\fE h'4
+    \appoggiatura h4 a2 g4
+    e2 d8 c
+    h4 a g
+    g' d d %5
+    c d d
+    d a' g
+    \appoggiatura g fis2 a4
+    \appoggiatura a g2 h4
+    \appoggiatura h a2 a4~ %10
+    a8. g16 fis4 e
+    \appoggiatura e d2 a'4\p
+    \appoggiatura a g2 h4
+    \appoggiatura h a2 a4~\f
+    a8. g16 fis4 e %15
+    fis a2~
+    a8. g16 fis4 e
+    d d'8 c! h a
+    g4 h2\p
+    \appoggiatura h4 a2 g4 %20
+    e2 d8 c
+    h4 a g
+    d'2.~
+    d
+    d'~ %25
+    d
+    a
+    a
+    a4 e d
+    \appoggiatura d8 cis4 e8 d cis h %30
+    a4 e' e
+    d d d
+    e e e
+    d d d
+    d e fis %35
+    g a a
+    g fis e
+    \appoggiatura e d2 a'4\pocoF
+    \appoggiatura a g2 h4
+    \appoggiatura h a2 h8\p cis %40
+    d4 a g
+    fis g a\pocoFE
+    \appoggiatura a g2 h4
+    \appoggiatura h a2 h8\p cis
+    d4 a g %45
+    fis2\f fis4
+    \appoggiatura fis e2 d4
+    h'2 a8 g
+    \appoggiatura fis4 e2 d4
+    d a a %50
+    d a' a
+    d,8 g fis4 e
+    d a'8 g fis e
+    d4 fis\p fis
+    \appoggiatura fis e2 d4 %55
+    e h'8 a g fis
+    fis4( e) d
+    a'4 r r
+    a2.
+    gis4 h e, %60
+    g r r
+    g2.
+    fis!4 a d,
+    d d d
+    c c c %65
+    g' r r
+    fis4 fis,8 fis fis fis
+    fis4 fis' fis
+    g g g
+    a a a %70
+    d, d d
+    g g a
+    d,-! d-! r
+    e d d
+    d r r %75
+    g2.\fp
+    a4 r fis
+    g2.\fp
+    a4 r d
+    b2\fp g4 %80
+    a <a d,>\f q
+    q\fermata r r
+    fis\p fis fis
+    g g g
+    fis fis fis %85
+    g g g
+    g, a h
+    c d d
+    c h a
+    \appoggiatura a g2 d'4\pocoF %90
+    \appoggiatura d c2 e4
+    \appoggiatura e d2 e8\p fis
+    g4 d c
+    h c d\pocoF
+    \appoggiatura d c2 e4 %95
+    \appoggiatura e d2 e8\p fis
+    g4 d c
+    h\f d'8 c h a
+    g fis g e d cis
+    d2.\fermata %100
+    h2 h'4
+    \appoggiatura h a2 g4
+    e2 d8 c
+    h4 a g
+    g' d d %105
+    c d d
+    d a' g
+    \appoggiatura g fis2 g8 d'
+    \appoggiatura d4 c2 e8 c
+    \appoggiatura c4 h2 d8 h %110
+    \appoggiatura h a4 g fis
+    \appoggiatura fis g2 g8\p d'
+    \appoggiatura d4 c2 e8 c
+    \appoggiatura c4 h2 d8\f h
+    \appoggiatura h a4 g fis %115
+    g d2~
+    d8. c16 h4 a \noBreak
+    g\fermata h'8 a g fis \bar "||"
+    g4 r r \noBreak
+    gis r r %120
+    r e\p e
+    e gis a
+    a gis gis
+    e e e
+    e e e %125
+    e e e
+    e gis gis
+    a\fp a a
+    a\fp a a
+    a\fp a a %130
+    a\fp a a
+    a\fp a a
+    a a gis
+    a \slurDashed a8(\f h) h( c)
+    c( a) a( fis!) fis( dis) \slurSolid %135
+    dis4 r r
+    dis r dis\pE
+    e g2
+    fis4 dis dis
+    h a' a %140
+    g fis dis
+    h a' a
+    g fis dis
+    h\fpE e e
+    e\fp e e %145
+    e\fp e e
+    e\fp e e
+    e\fp e e
+    e e dis
+    e e8\f e d d %150
+    c c h h a a
+    c c h h a a
+    c c h h ais ais
+    h2.
+    R2.*2 \markDaCapo \bar "||" %156 finis
+  }
+}

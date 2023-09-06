@@ -177,3 +177,165 @@ VixitViolinoI = {
     h,\f h, r h' cis cis, r cis' \markDaCapo \bar "||" %139 finis
   }
 }
+
+AliquamViolinoIeII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoAliquam
+    d'4\fE g8 fis e d
+    \appoggiatura d4 c2 h4
+    a e'8 c h a
+    \appoggiatura g4 fis2 g4
+    c4. a8 h g %5
+    e' g fis a g h
+    a d, c'4 h
+    \appoggiatura h a2 a8 c,
+    \appoggiatura c4 h2 h'8 d,
+    \appoggiatura d4 cis2 \tuplet 3/2 4 { g'8 fis e } %10
+    a8. h16 d,4 cis
+    \appoggiatura cis d2 a'8\p c,
+    \appoggiatura c4 h2 h'8 d,
+    \appoggiatura d4 cis2 \tuplet 3/2 4 { g'8\f fis e }
+    a8. h16 d,4 cis %15
+    d8 a \tuplet 3/2 4 { fis' e d g fis e }
+    a8. h16 d,4 cis
+    d d8 c h a
+    g4 g'8\p fis e d
+    \appoggiatura d4 c2 h4 %20
+    a e'8 c h a
+    \appoggiatura g4 fis2 g4
+    d'8( g) g( h) h( d)
+    d( c) c( a) a( h)
+    d,( g) g( h) h( d) %25
+    d( c) c( a) a( h)
+    << { e,2. } \\ { cis } >>
+    d4 e fis
+    e g, fis
+    \appoggiatura fis8 e4 e8 d cis h %30
+    a4 g' g
+    fis fis fis
+    g g g
+    fis fis a
+    h cis d %35
+    e e fis
+    e d cis
+    \appoggiatura cis d2 a'8\pocoF c,
+    \appoggiatura c4 h2 h'8 d,
+    \appoggiatura d4 cis2 \tuplet 3/2 4 { g'8\p fis e } %40
+    a8. h16 d,4 cis
+    \appoggiatura cis d2 a'8\pocoF c,
+    \appoggiatura c4 h2 h'8 d,
+    \appoggiatura d4 cis2 \tuplet 3/2 4 { g'8\p fis e }
+    a8. h16 d,4 cis %45
+    d\f d'8 cis h a
+    \appoggiatura a4 g2 fis4
+    e h'8 g fis e
+    \appoggiatura d4 cis2 d4
+    g4. e8 fis d %50
+    g4. e8 fis a
+    h, e d4 cis
+    d a8 g fis e
+    d4 d'8\p cis h a
+    \appoggiatura a4 g2 fis4 %55
+    h'2.
+    d,4( cis) d
+    d a'8( f) e( d)
+    cis( d) e4 f
+    \appoggiatura f8 e4. d8 cis4 %60
+    c g'8 e d c
+    h( c) d4 e
+    \appoggiatura e8 d4. c8 h4
+    g'8 g fis( g) fis( g)
+    e4 r r %65
+    e r r
+    d d,8 d d d
+    d4 d' d
+    cis cis cis
+    c c c %70
+    h h h
+    e e e
+    a,-! h-! r
+    g g fis
+    g h8\f g d' h %75
+    g'4 g2\p
+    \tuplet 3/2 4 { fis8 g a g fis e } d4
+    g\f g2\p
+    \tuplet 3/2 4 { fis8 g a g fis e } d4
+    g\f g2\p %80
+    fis4 << { d d d\fermata } \\ { fis,\f fis fis\fermata } >>
+    r r
+    c'!8\p a a' fis d c
+    h g h' g d h
+    c( a) a'( fis) d( c) %85
+    h( g) h'( g) h( g)
+    e4 fis, g
+    a' c, h
+    a g fis
+    \appoggiatura fis g2 d'8\pocoF f, %90
+    \appoggiatura f4 e2 e'8 g,
+    \appoggiatura g4 fis2 \tuplet 3/2 4 { c'8\p h a }
+    d8. e16 g,4 fis
+    \appoggiatura fis g2 d'8\pocoF f,
+    \appoggiatura f4 e2 e'8 g, %95
+    \appoggiatura g4 fis2 \tuplet 3/2 4 { c'8\p h a }
+    d8. e16 g,4 fis
+    g8\f d d' c h a
+    g fis g e d cis
+    d2.\fermata %100
+    d'4 g8 fis e d
+    \appoggiatura d4 c2 h4
+    a e'8 c h a
+    \appoggiatura g4 fis2 g4
+    c4. a8 h g %105
+    e' g fis a g h
+    a d, c'4 h
+    \appoggiatura h a2 d8 f,
+    \appoggiatura f4 e2 c'8 e,
+    \appoggiatura e4 d2 h'8 d, %110
+    \appoggiatura d8 c4 h a
+    \appoggiatura a4 g2 d''8\p f,
+    \appoggiatura f4 e2 c'8 e,
+    \appoggiatura e4 d2 h'8\f d,
+    \appoggiatura d c4 h a %115
+    g8 d \tuplet 3/2 4 { h' a g c h a }
+    d8. e16 g,4 fis \noBreak
+    g\fermata h8 a g fis \bar "||"
+    <e h' e>4 r r \noBreak
+    <h' f'> r r %120
+    r gis\p gis
+    a d c
+    c h8 e e e
+    c'4. h8 a gis
+    a4 h8 e, e e %125
+    c'4. h8 a gis
+    a4 h8 e, e e
+    a\fp a, a a a a
+    a'\fp h, h h h h
+    a'\fp cis, cis cis cis cis %130
+    a'\fp d, d d d d
+    a'\fp e e e e e
+    \tuplet 3/2 4 { f e d } c!4 h
+    a a8(\f h) h( c)
+    c( a) a( fis!) fis( dis) %135
+    <dis h'>4 r r
+    <a' fis'> r a\pE
+    g e'2
+    dis4 h8 h h h
+    g'4. fis8 e dis %140
+    e4 fis8 h, h h
+    g'4 g8 fis e dis
+    e4 fis8 h, h h
+    e\fp e, e e e e
+    e'\fp fis, fis fis fis fis %145
+    e'\fp gis, gis gis gis gis
+    e'\fp a, a a a a
+    e'\fp h h h h h
+    \tuplet 3/2 4 { c h a } g!4 fis
+    e e8\f e d! d %150
+    c c h h a a
+    c c h h a a
+    c c h h ais ais
+    h2.
+    R2.*2 \markDaCapo \bar "||" %156 finis
+  }
+}
