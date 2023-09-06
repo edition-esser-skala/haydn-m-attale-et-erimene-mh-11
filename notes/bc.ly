@@ -347,3 +347,37 @@ VixitBassFigures = \figuremode {
   r2 <6 5>4 <_+>
   r2 <6!>4. <\t>8 %139 finis
 }
+
+PantaleonBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoPantaleon
+    R1
+    g'\pE
+    f!2 e
+    e gis
+    gis a %5
+    r4 f! r2
+    r4 e gis2
+    gis gis
+    g f!
+    f e %10
+    f r4 r8 g
+    c,4 r r2\fermata \bar "|." %12 finis
+  }
+}
+
+PantaleonBassFigures = \figuremode {
+  r1
+  r
+  <2>2 <6>
+  r q
+  <5>1 %5
+  r4 <6>2.
+  r4 <_+> <6>2
+  r <5>
+  <4\+ 2> <6>
+  <2> <6!> %10
+  r1
+  r %12 finis
+}

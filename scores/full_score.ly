@@ -58,54 +58,80 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2" "Aria" "Vixit, heu vixit Eumenes"
+  %   \addTocLabel "vixit"
+  %   \paper { systems-per-page = #2 }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
+  %           % \transpose c d,
+  %           \partCombine #'(0 . 10) \VixitCornoI \VixitCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \VixitViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \VixitViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \VixitViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \VixitBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \VixitBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \VixitBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \VixitBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 120 }
+  %   }
+  % }
   \bookpart {
-    \section "2" "Aria" "Vixit, heu vixit Eumenes"
-    \addTocLabel "vixit"
-    \paper { systems-per-page = #2 }
+    \section "3" "Recitativo" "Pantaleon! Omnem absterge"
+    \addTocLabel "pantaleon"
+    \paper { systems-per-page = #3 }
     \score { %\articulate
       <<
-        \new StaffGroup <<
-          \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "D" "" "1, 2" }
-            % \transpose c d,
-            \partCombine #'(0 . 10) \VixitCornoI \VixitCornoII
-          >>
-        >>
-        \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \VixitViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \VixitViolinoII
-            }
-          >>
-          \new Staff {
-            \set Staff.instrumentName = "vla"
-            \VixitViola
-          }
-        >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \VixitBasso }
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \PantaleonTenore }
           }
-          \new Lyrics \lyricsto Basso \VixitBassoLyrics
+          \new Lyrics \lyricsto Tenore \PantaleonTenoreLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \VixitBassoContinuo
+            \PantaleonBassoContinuo
           }
         >>
-        \new FiguredBass { \VixitBassFigures }
+        \new FiguredBass { \PantaleonBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 120 }
+      \midi { \tempo 4 = 60 }
     }
   }
 }
