@@ -240,3 +240,40 @@ VixitBassoLyrics = \lyricmode {
   a, lae -- ti -- ti --
   a. %139 finis
 }
+
+ApplaudoBasso = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \autoBeamOff \tempoApplaudo
+    R1*3
+    r2 r4 r8 \mvTr h'\pE^\soloE
+    gis gis a h h8. e,16 e4 %5
+    r e gis8 gis fis e
+    e8. a16 a4 r8 e e fis16 g
+    g8 fis e fis e8. d16 d4
+    R1
+    r2 r4 a'8 d %10
+    d8. a16 a8 a fis fis fis g16 g
+    a8. d,16 d4 r8 fis fis fis16 fis
+    fis4 h r8 h a h
+    a8. gis!16 gis4 r gis8 e
+    cis'8. cis16 cis4 cis,8 cis16 cis dis8 e %15
+    e8. h16 h4 r2\fermata \bar "|." %16 finis
+  }
+}
+
+ApplaudoBassoLyrics = \lyricmode {
+  Ap -- %4
+  plau -- do ti -- bi At -- ta -- le, %5
+  per me con -- sen -- dis
+  so -- li -- um a fra -- tro a
+  mor -- te re -- gnum ob -- ti -- nes.
+
+  Fe -- lix %10
+  u -- te -- re quod ti -- bi da -- tum im --
+  pe -- ri -- um, am -- pli -- fi -- ca
+  vi -- res, re -- bel -- les
+  co -- hi -- be et per
+  do -- mi -- tos ma -- jor re -- sur -- ge %15
+  po -- pu -- los. %16 finis
+}

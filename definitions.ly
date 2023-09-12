@@ -28,6 +28,7 @@ tempoTriumphate = \tempoMarkup "Prestissimo"
   tempoTriumphateG = \tempoMarkup "Prest:"
   tempoTriumphateH = \tempoMarkup "And:"
 tempoQuamBonum = \tempoMarkup "Allegro"
+tempoApplaudo = \tempoMarkup "Allegro"
 
 
 \include "notes/cor1.ly"

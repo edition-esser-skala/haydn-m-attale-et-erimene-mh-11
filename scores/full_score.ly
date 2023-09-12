@@ -228,57 +228,104 @@
   %     \midi { \tempo 4 = 80 }
   %   }
   % }
+  % \bookpart {
+  %   \section "6" "Aria" "Quam bonum regnare"
+  %   \addTocLabel "quambonum"
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #3
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \QuamBonumViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \QuamBonumViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \QuamBonumViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \QuamBonumAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \QuamBonumAltoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \QuamBonumBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \QuamBonumBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 110 }
+  %   }
+  % }
   \bookpart {
-    \section "6" "Recitativo" "Quam bonum regnare"
-    \addTocLabel "quambonum"
+    \section "7" "Recitativo" "Applaudo tibi Attale"
+    \addTocLabel "applaudo"
     \paper {
-      top-system-spacing.basic-distance = #10
-      top-system-spacing.minimum-distance = #10
-      top-markup-spacing.basic-distance = #0
-      top-markup-spacing.minimum-distance = #0
-      markup-system-spacing.basic-distance = #10
-      markup-system-spacing.minimum-distance = #10
-      system-system-spacing.basic-distance = #17
-      system-system-spacing.minimum-distance = #17
-      systems-per-page = #3
+      system-system-spacing.basic-distance = #30
+      system-system-spacing.minimum-distance = #30
+      systems-per-page = #2
     }
     \score { %\articulate
       <<
-        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
-          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \QuamBonumViolinoI
+              \ApplaudoViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \QuamBonumViolinoII
+              \ApplaudoViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \QuamBonumViola
+            \ApplaudoViola
           }
         >>
-        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+        \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \QuamBonumAlto }
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \ApplaudoBasso }
           }
-          \new Lyrics \lyricsto Alto \QuamBonumAltoLyrics
+          \new Lyrics \lyricsto Basso \ApplaudoBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \QuamBonumBassoContinuo
+            \ApplaudoBassoContinuo
           }
         >>
-        \new FiguredBass { \QuamBonumBassFigures }
+        \new FiguredBass { \ApplaudoBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 110 }
+      \midi { \tempo 4 = 80 }
     }
   }
 }

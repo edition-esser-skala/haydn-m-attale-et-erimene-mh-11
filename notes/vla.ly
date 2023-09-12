@@ -459,3 +459,26 @@ QuamBonumViola = {
     e2\fermata a,4 r8 \markDaCapo \bar "||" %112 finis
   }
 }
+
+ApplaudoViola = {
+  \relative c' {
+    \clef alto
+    \key a \major \time 4/4 \tempoApplaudo
+    a8\fE a cis a d d fis d
+    a a cis a e' e gis e
+    a gis a fis e e gis h
+    e, e' h gis e4 r
+    R1 %5
+    e4 r r2
+    r a4 r
+    cis,2\p h
+    d8\f d fis d g g h g
+    cis, cis e cis d4 r %10
+    R1
+    r2 d4 r
+    r2 h4 r
+    r2 e,4 r
+    R1 %15
+    r4 r8 h'\fE h4 r\fermata \bar "|." %16 finis
+  }
+}

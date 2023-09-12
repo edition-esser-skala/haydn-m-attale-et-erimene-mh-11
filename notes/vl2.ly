@@ -321,3 +321,26 @@ QuamBonumViolinoII = {
     e2\fermata r4 r8 \markDaCapo \bar "||" %112 finis
   }
 }
+
+ApplaudoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 4/4 \tempoApplaudo
+    cis'16\fE a, a a a a cis' cis d a, a a a a d' d
+    cis a, a a a a cis' cis h gis, gis gis gis gis h' h
+    a a h h cis cis dis dis e e e, e gis gis h h
+    <e h e,>4 q q r
+    R1
+    h4 r r2
+    r e4 r
+    R1
+    \kneeBeam h'16\f h,, h h \kneeBeam h h h'' h g e, e e e e g' g
+    \kneeBeam a a,, a a \kneeBeam a a a'' a <fis a, d,>4 r %10
+    R1
+    r2 q4 r
+    r2 <h, dis,>4 r
+    r2 <h e,>4 r
+    R1 %15
+    r4 r8 fis-!\fE gis4-! r\fermata \bar "|." %16 finis
+  }
+}

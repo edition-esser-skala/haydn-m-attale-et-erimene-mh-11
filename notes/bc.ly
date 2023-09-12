@@ -982,3 +982,45 @@ QuamBonumBassFigures = \figuremode {
   r <7! _+>
   <6 4>4 <5 _+>2 r8 %112 finis
 }
+
+ApplaudoBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key a \major \time 4/4 \tempoApplaudo
+    \mvTr a8\fE-\soloE a cis a d d fis d
+    a a cis a e' e gis e
+    a gis a fis e e gis h
+    e, e' h gis e4 r
+    R1 %5
+    d!4 r r2
+    r cis4 r
+    ais2\p h
+    h8\f h d h e e g e
+    a, a cis a d4 r %10
+    R1
+    r2 d4 r
+    r2 dis4 r
+    r2 e4 r
+    a,1\pE %15
+    r4 r8 h\fE e,4 r\fermata \bar "|." %16 finis
+  }
+}
+
+ApplaudoBassFigures = \figuremode {
+  r1
+  r2 <7>
+  r8 <6>4 <6\\>8 r2
+  r1
+  r %5
+  <2>
+  r2 <6>
+  <7!>1
+  r2 <_!>
+  r1 %10
+  r
+  r
+  r2 <6>
+  r <_+>
+  r1 %15
+  r4. <_+>8 r2 %16 finis
+}
