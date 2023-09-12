@@ -174,9 +174,63 @@
   %     \midi { \tempo 4 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \section "5" "Recitativo" "Io triumphate socii"
+  %   \addTocLabel "triumphate"
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #3
+  %     page-count = #1
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \TriumphateViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \TriumphateViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \TriumphateViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \TriumphateAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \TriumphateAltoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \TriumphateBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \TriumphateBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
-    \section "5" "Recitativo" "Io triumphate socii"
-    \addTocLabel "triumphate"
+    \section "6" "Recitativo" "Quam bonum regnare"
+    \addTocLabel "quambonum"
     \paper {
       top-system-spacing.basic-distance = #10
       top-system-spacing.minimum-distance = #10
@@ -187,7 +241,6 @@
       system-system-spacing.basic-distance = #17
       system-system-spacing.minimum-distance = #17
       systems-per-page = #3
-      page-count = #1
     }
     \score { %\articulate
       <<
@@ -196,36 +249,36 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \TriumphateViolinoI
+              \QuamBonumViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \TriumphateViolinoII
+              \QuamBonumViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \TriumphateViola
+            \QuamBonumViola
           }
         >>
         \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \TriumphateAlto }
+            \new Voice = "Alto" { \dynamicUp \QuamBonumAlto }
           }
-          \new Lyrics \lyricsto Alto \TriumphateAltoLyrics
+          \new Lyrics \lyricsto Alto \QuamBonumAltoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \TriumphateBassoContinuo
+            \QuamBonumBassoContinuo
           }
         >>
-        \new FiguredBass { \TriumphateBassFigures }
+        \new FiguredBass { \QuamBonumBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 4 = 110 }
     }
   }
 }

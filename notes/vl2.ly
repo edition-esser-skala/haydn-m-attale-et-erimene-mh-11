@@ -202,3 +202,122 @@ TriumphateViolinoII = {
     r4 r8 c-!\fE h4-! r\fermata \bar "|." %17 finis
   }
 }
+
+QuamBonumViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoQuamBonum
+    \partial 8 g''8\fE g c r c, c h r d
+    d f r d c16 d e8 r e
+    e16( d) d( f) f( e) e( d) c h c8 r e
+    \slurDashed a16( c) c( h) h( a) a( g) \slurSolid fis8( g) r d
+    \slurDashed g16( b) b( a) a( g) g( f) \slurSolid e8( f) r g %5
+    g( gis a) c,-! h16 c d8 r g
+    g( gis a) c,-! h16 a g8 r g,
+    g g' g g fis4( d'8) g,,
+    g f' f f e4( c'8) c-!
+    c c' c c h4( g8) c,-! %10
+    c b' b b b4( a16) f e d
+    c4 h!\trill c8 b' b b
+    b4( a16) f e d c4 h\trill
+    c8 c, r e\p e e r c
+    c h r d d f r d %15
+    c16 d e8 r e d f e d
+    c e\f e r e\p e e e
+    fis g r g e e e e
+    fis g g a g g g g
+    fis4 r8 d'\f d, d' d,4 %20
+    g8\p g g g g g g g
+    a a a a a a a a
+    g g g g g g g g
+    a a a a a a a a
+    g g' g g g g g g %25
+    g g, g g fis fis fis fis
+    g\cresc g' g g g g g g
+    g g, g g fis fis fis fis
+    g\f g' r g, g fis r a
+    a c r a g16 a h8 r h %30
+    h16( a) a( c) c( h) h( a) g fis g8 r h
+    e16( g) g( fis) fis( e) e( d) \parOn cis8-\parenthesize-! \parOff d -\parenthesize-!r d
+    \slurDashed d16( f) f( e) e( d) d( c) \slurSolid h8-! c-! r d
+    d( dis e) g,-! fis16 g a8 r d
+    \once \slurDashed d( dis e) a \appoggiatura g16 fis8 e16 d g8 c %35
+    \appoggiatura c16 h8 a16 g a4\trill g8 g, r4
+    e8\p e e e e e e e
+    e e e e e d d d
+    d d d d d d d d
+    d d d d d c! c r %40
+    r g' g g r f f f
+    r g g g r f f f
+    r a a a r g g g
+    r a a a r g g g
+    a a a a a a a a %45
+    g g g g g g g g
+    f f f f f f f f
+    e g a f e e d d
+    c'16\f h c d e d e fis g8 g, r g,\pocoF
+    g g' g g fis4( d'8) g,,-! %50
+    g f' f f e4( c'8) c,-!
+    c c' c c h4( g'8) c,,-!
+    c b' b b a4( f'8) g,-!
+    c,4. a8 a g g c
+    c4. a8 a g <d' h' g'>^[\f q] %55
+    q4 r8 d\pE e e e e
+    e e e e d d d d
+    d d d d e e e e
+    e e e e c c g' g
+    g g g g g c c c %60
+    c c c c c c, c c
+    h h h h c'\cresc c c c
+    c c c c c c, c c
+    h h h h c\f c' e, e
+    f c' fis, fis g2\fermata %65
+    r2 r4 r8 e'
+    a16( c) c( h) h( a) a( g) fis8 g r d
+    \slurDashed g16( b) b( a) a( g) g( f) \slurSolid e8 f r g
+    g( gis a) c,-! h!16 c d8 r g
+    g( gis a) c, h16 a g8 r g, %70
+    g g' g g fis4( d'8) g,,-\parenthesize-!
+    g f' f f e4( c'8) c-!
+    c c' c c h4( g8) c,-!
+    c b' b b \once \slurDashed b4( a16) f e d
+    c4 h!\trill c8 b' b b %75
+    \once \slurDashed b4( a16) f e d c4 h\trill
+    c8\fermata c, r4 e8\p e e e
+    dis-! e-! r4 e8 e e e
+    cis-! d-! r4 a'2
+    gis8-\staccato h gis h e, h' d, h' %80
+    c, a' e a c, e a, cis
+    d a' f a d, a' c, a'
+    h, g' d g h, d g, h
+    c g' e g c, g' e g
+    h, g' d g h, g' d g %85
+    c, g' e g c, c' f, fis
+    g d' h d g, d' h d
+    g, d' h d g, d' h d
+    c, e' c e e, c' g c
+    f, c' a c fis, d' a d %90
+    g, d' h d gis, e' h e
+    a, e' c e a, c fis, a
+    h, dis' h dis fis, h dis, fis
+    h, h' dis, h' e, g a c
+    h a h h, e g\f fis e %95
+    c' a h h, e h'\p gis h
+    e, h' gis h e, c' a c
+    e, h' gis h a, c' a c
+    e, c' g! c f, c' a c
+    e, c' g c f, c' a f %100
+    cis a' e a d, a' f a
+    cis, a' e a d, a' f d
+    dis h' fis h e, h' gis h
+    e, e' h e e, h' gis h
+    e, c' a c e, c' a c %105
+    e, h' gis h e, h' gis h
+    e, c' a c e, c' a c
+    e, h' gis h e, h' gis h
+    a c, f! d e d e e
+    a, a'\f e a cis, a' e a %110
+    d, a' f a dis, c'! a dis,
+    e2\fermata r4 r8 \markDaCapo \bar "||" %112 finis
+  }
+}

@@ -359,3 +359,103 @@ TriumphateViola = {
     r4 r8 d\fE d4 r\fermata \bar "|." %17 finis
   }
 }
+
+QuamBonumViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoQuamBonum
+    \partial 8 r8 r e\fE g e r g, g' g,
+    r h d h r e g e
+    g g g g e g16 f e8 r
+    e e e e d d d d
+    d d d d c c c c %5
+    r c c a' g g g g
+    r c, c a' g h, h r
+    h h h h c c c c
+    d d d d g, g g g
+    e' e e e f f f f %10
+    g g g g c, c c a'
+    g g g g c, c c c
+    c c c a' g g g g
+    g4 r r8 e\p g e
+    r g, g' g, r h d h %15
+    r e g e g g g g
+    g g\f g r r2
+    R1*2
+    r4 r8 d'\f d, d' d,4 %20
+    d8\p d d d d d d d
+    d d d d d d d d
+    d d d d d d d d
+    d d d d d d d d
+    g g a a h h c c %25
+    d d d d d, d d d
+    g\cresc g a a h h c c
+    d d d d d, d d d
+    g\f h, d h r d d' d,
+    r fis a fis r h, d h %30
+    d d d d h d16 c h8 r
+    h h h h a a a a
+    a a a a g g g g
+    r g g e' d d d d
+    r g, g e' d d d g %35
+    g g fis fis g4 r
+    R1*12 %48
+    e8\f e c c h4 r
+    h8\p h h h c c c c %50
+    d d d d c c c c
+    e e e e f f f f
+    g g g g c, c c r
+    R1
+    r2 r4 g8\f g %55
+    g4 r r2
+    R1*7 %63
+    r2 c8\fE c' e, e
+    f c' fis, fis g2\fermata
+    R1
+    e8 e e e d d d d
+    d d d d c c c c
+    r c c a' g g g g
+    r c, c a' g h, h r
+    h h h h c c c c
+    d d d d g, g g g
+    e' e e e f f f f
+    g g g g c, c c a'
+    g g g g c, c c c
+    c c c a' g g g g
+    g4\fermata r r2
+    R1*2
+    e8-\staccato h' gis h e, h' d, h' %80
+    c, a' e a c, e a, cis
+    d a' f a d, a' c, a'
+    h, g' d g h, d g, h
+    c g' e g c, g' e g
+    h, g' d g h, g' d g %85
+    c, g' e g c, c' f, fis
+    g d' h d g, d' h d
+    g, d' h d g, d' h d
+    c, e' c e e, c' g c
+    f, c' a c fis, d' a d %90
+    g, d' h d gis, e' h e
+    a, e' c e a, c fis, a
+    h, dis' h dis fis, h dis, fis
+    h, h' dis, h' e, g a c
+    h a h h, e g\f fis e %95
+    c' a h h, e h'\p gis h
+    e, h' gis h e, c' a c
+    e, h' gis h a, c' a c
+    e, c' g! c f, c' a c
+    e, c' g c f, c' a f %100
+    cis a' e a d, a' f a
+    cis, a' e a d, a' f d
+    dis h' fis h e, h' gis h
+    e, e' h e e, h' gis h
+    e, c' a c e, c' a c %105
+    e, h' gis h e, h' gis h
+    e, c' a c e, c' a c
+    e, h' gis h e, h' gis h
+    a c, f! d e d e e
+    a, a'\f e a cis, a' e a %110
+    d, a' f a dis, c'! a dis,
+    e2\fermata a,4 r8 \markDaCapo \bar "||" %112 finis
+  }
+}

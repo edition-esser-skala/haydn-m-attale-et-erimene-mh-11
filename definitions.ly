@@ -6,6 +6,9 @@
 \include "ees_articulate.ly"
 
 
+staccato = \markup \remark "staccato"
+
+
 tempoInimica = \tempoMarkup "Presto"
   tempoInimicaB = \tempoMarkup "Recitativo"
   tempoInimicaC = \tempoMarkup "Presto"
@@ -24,6 +27,7 @@ tempoTriumphate = \tempoMarkup "Prestissimo"
   tempoTriumphateF = \tempoMarkup "[And:]"
   tempoTriumphateG = \tempoMarkup "Prest:"
   tempoTriumphateH = \tempoMarkup "And:"
+tempoQuamBonum = \tempoMarkup "Allegro"
 
 
 \include "notes/cor1.ly"

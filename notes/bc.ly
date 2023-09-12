@@ -748,3 +748,237 @@ TriumphateBassFigures = \figuremode {
   <5 3>2 <4\+ 2>
   r4. <7 _+>8 r2
 }
+
+QuamBonumBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoQuamBonum
+    \partial 8 r8 r \mvTr c\fE-\soloE e c r g' g, g'
+    r g, h g r c e c
+    g' g g g c, e16 d c8 r
+    c' c c c c h h h
+    b b b b b a a e %5
+    r e f fis g g f e
+    r e f fis g g, g r
+    g g g g a a a a
+    h h h h c c c c
+    c c c c d d d d %10
+    e e e e f f f f
+    g g g f e e e e
+    f f f f g g g, g
+    c4 r r8 c\pE e c
+    r g' g, g' r g, h g %15
+    r c e c g' g g g
+    c, c\f c r c'\p c c c
+    c h h h c c c c
+    c h h fis g g e e
+    d4 r8 d'\fE d, d' d,4 %20
+    g,8\pE g g g g g g g
+    fis fis fis fis fis fis fis fis
+    g g' g g g g g g
+    fis fis fis fis fis fis fis fis
+    g g a a h h c c %25
+    d d d d d, d d d
+    g\cresc g a a h h c c
+    d d d d d, d d d
+    g\f g h g r d' d, d'
+    r d, fis d g, g' h g %30
+    d' d d, d g h16 a g8 r
+    g g g g g fis fis fis
+    f f f f f e e h
+    r h c cis d d c h
+    r h c cis d c h e %35
+    d d d d g,4 r
+    c8\p c c c cis cis cis cis
+    cis cis cis cis d d d d
+    h! h h h h h h h
+    h h h h c! c c r %40
+    r e e e r f f f
+    r e e e r f f f
+    r fis fis fis r g g g
+    r fis fis fis r g f e
+    f f f f f f f f %45
+    e e e e e e e e
+    d d d d g, g g g
+    c e f a g g g, g
+    c\f c a a g4 r
+    g8\p g g g a a a a %50
+    h h h h c c c c
+    c c c c d d d d
+    e e e e f f f e
+    r e f fis g g f e
+    r e f fis g g, g\f g %55
+    g g h\p g c c c c
+    c c c c h h h h
+    h h h h c c c c
+    c c c c f f f f
+    e e h h c c e e %60
+    f g a a g g g g
+    g, g g g c\crescE c e e
+    f f a a g g g g
+    g, g g g c\f c' e, e
+    f c' fis, fis g2\fermata %65
+    g,2 c8 g c4
+    c'8 c c c c h h h
+    b b b b b a a e
+    r e f fis g g f e
+    r e f fis g g, g r %70
+    g g g g a a a a
+    h h h h c c c c
+    c c c c d d d d
+    e e e e f! f f f
+    g g g f e e e e %75
+    f f f f g g g, g
+    c4\fermata c8\p h a a' a a
+    a-! gis-! r4 g8 g g g
+    g-! fis-! r4 f2
+    e8-\staccato h' gis h e, h' d, h' %80
+    c, a' e a c, e a, cis
+    d a' f a d, a' c, a'
+    h, g' d g h, d g, h
+    c g' e g c, g' e g
+    h, g' d g h, g' d g %85
+    c, g' e g c, c' f, fis
+    g d' h d g, d' h d
+    g, d' h d g, d' h d
+    c, e' c e e, c' g c
+    f, c' a c fis, d' a d %90
+    g, d' h d gis, e' h e
+    a, e' c e a, c fis, a
+    h, dis' h dis fis, h dis, fis
+    h, h' dis, h' e, g a c
+    h a h h, e g\f fis e %95
+    c' a h h, e h'\p gis h
+    e, h' gis h e, c' a c
+    e, h' gis h a, c' a c
+    e, c' g! c f, c' a c
+    e, c' g c f, c' a f %100
+    cis a' e a d, a' f a
+    cis, a' e a d, a' f d
+    dis h' fis h e, h' gis h
+    e, e' h e e, h' gis h
+    e, c' a c e, c' a c %105
+    e, h' gis h e, h' gis h
+    e, c' a c e, c' a c
+    e, h' gis h e, h' gis h
+    a c, f! d e d e e
+    a, a'\f e a cis, a' e a %110
+    d, a' f a dis, c'! a dis,
+    e2\fermata a,4 r8 \markDaCapo \bar "||" %112 finis
+  }
+}
+
+QuamBonumBassFigures = \figuremode {
+  r8 r2 <6 4>8 <5 3>4.
+  r8 <7>2..
+  r8 <9 7> <8 6> <7 5> r2
+  <6> <4\+ 2>8 <6>4.
+  <\t>2 <4 2>8 <6!>4 <6 3>8 %5
+  r <\t _+>4. <_!>4 <\t>8 <6>
+  r <\t _+>2..
+  r2 <6\\>
+  <6 5!>1
+  r2 <6> %10
+  <6 5-> <4->4 <3>8 <6>
+  <6 4>4 <5 _!>8 <\t \t> <6> <5->4.
+  <4->4 <3>8 <6> <6 4>4 <5 _!>
+  r1
+  <6 4>8 <5 3>2 <7>4. %15
+  r2 r8 <9 7> <8 6> <7 5>
+  r2 <6>
+  <4\+ 2>8 <6>4. q2
+  <4\+ 2>8 <6>4 <6 5>4. <5>8 <6\\>
+  <_+>1 %20
+  r
+  <6 5>
+  r
+  q
+  <8 3>2.. \once \bassFigureExtendersOn q8 %25
+  <6 4>2 <5 _+>
+  <8 3>2.. \once \bassFigureExtendersOn q8
+  <6 4>2 <5 _+>
+  r2 <6 4>8 <5 _+>4.
+  r8 <7 _+>2.. %30
+  <_ _ _+>8 \bassFigureExtendersOn <9 7 _+> <8 6 _+> <7 5 _+> \bassFigureExtendersOff r2
+  <6> <4\+ 2>8 <6>4.
+  <\t>2 <4 2>8 <6!>4 <6 3>8
+  r <\t _+>4. <_+>4 <\t>8 <6>
+  r <\t _+>4 <6>8 <_+> <\t> <6> q %35
+  <6 4>4 <5 _+>2.
+  <5>4 <6>8 <7-> <\t> <6>4 <5>8
+  <7-> <6>4 <5>8 <9 4> <8 _!>4.
+  <5>4 <6>8 <7>4 <6> <5>8
+  <7> <6>4 <5>8 <9 4> <8 3>4. %40
+  r8 <6 5->2..
+  r8 q2..
+  r8 <6 5>2 <_!>4.
+  r8 <6 5>2. <6>8
+  r1 %45
+  <6>
+  <7>4 <6> <7>2
+  r2 <6 4>4 <5 3>
+  r <5>8 <6\\> r2
+  r <6\\> %50
+  <6 5!>1
+  r2 <6>
+  <6 5->2.. <6 3>8
+  r <\t _+>4. <9 4>8 <8 _!> <\t> <6>
+  r <\t _+>4. <9 4>8 <8 3>4. %55
+  r1
+  r2 <6 5>
+  r1
+  r2 <3>4 <4>
+  <6> q <8 3>2 \bassFigureExtendersOn %60
+  q4. q8 \bassFigureExtendersOff <6 4>2
+  <5 3> <8 3>2 \bassFigureExtendersOn
+  q4. q8 \bassFigureExtendersOff <6 4>2
+  <5 3> <1>8 q q q
+  q q q q <6 4>2 %65
+  <5 3>1
+  <6>2 <4\+ 2>8 <6>4.
+  <\t>2 <4 2>8 <6!>4 <6 3>8
+  r <\t _+>4. <_!>4 <\t>8 <6 3>
+  r <\t _+>2.. %70
+  r2 <6\\>
+  <6 5!>1
+  r2 <6>
+  <6 5-> <4->4 <3>8 <6>
+  <6 4>4 <5 _!>8 <\t \t> <6> <5->4. %75
+  <4->4 <3>8 <6> <6 4>4 <5 _!>
+  r4. <6\\>8 r2
+  <6\\ 4\+ 3>8 <6>4. <4\+ _->2
+  <\t \t>8 <6!>4. <\t>2
+  <_+>2. <\t>4 %80
+  <6>2.. <6 5!>8
+  r2. <\t>4
+  <6>2. <7>4
+  r1
+  <6 5> %85
+  r2. <6>8 <5>
+  <4> <3>2..
+  <7!>1
+  r2 <6>4 <6 _->
+  r2 <6>4 <6\\> %90
+  <_!>2 <6>4 <6\\>
+  r2. <5>4
+  <5\+ 4>8 <\t _+>2..
+  <7 5\+ _+>2 <5>4 q
+  <6 4> <5\+ _+>2. %95
+  r4 <6 4>8 <5\+ _+> <5 _+>2
+  <\t \t> <6 4>
+  <5 _+>1
+  <6 _!>4 <6 _->2.
+  <6>4. <7->8 r2 %100
+  <6>4. <7 _+>8 r2
+  <6>4. <7 _+>8 r2
+  <6 _+>4 <6\\> <_+>2
+  <5 _+>1
+  <6 4> %105
+  <5 _+>2 <7 \t>
+  <6 4>1
+  <5 _+>2 <7 \t>
+  r4 <6> <_+>2
+  r <6> %110
+  r <7! _+>
+  <6 4>4 <5 _+>2 r8 %112 finis
+}
