@@ -334,3 +334,28 @@ AliquamViola = {
     R2.*2 \markDaCapo \bar "||" %156 finis
   }
 }
+
+TriumphateViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoTriumphate
+      \set Staff.timeSignatureFraction = 4/4
+    c8\fE e g e c4 r
+    c8 e g e c4 r
+    c8 f a f c4 r
+    c8 f a f c4 r
+    c8 e g e c4 r %5
+    r c' r h
+    r a r fis
+    r g g r
+    r g, \tempoTriumphateB r2
+    r \tempoTriumphateC c4 r %10
+    b r a r
+    \time 5/4 \markTimeSig #'(5 4) \tempoTriumphateD a'2\pE a4 \tempoTriumphateE r r
+    \time 4/4 \markTimeSig #'(4 4) \tempoTriumphateF h1
+    g
+    \time 5/4 \markTimeSig #'(5 4) g2 g4 \tempoTriumphateG r r %15
+    \time 4/4 \markTimeSig #'(4 4) \tempoTriumphateH g2 fis
+    r4 r8 d\fE d4 r\fermata \bar "|." %17 finis
+  }
+}

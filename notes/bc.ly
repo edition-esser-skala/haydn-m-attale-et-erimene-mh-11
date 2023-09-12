@@ -703,3 +703,48 @@ AliquamBassFigures = \figuremode {
   <5 _+> %155
   r2 <6!>4 %156 finis
 }
+
+TriumphateBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoTriumphate
+      \set Staff.timeSignatureFraction = 4/4
+    \mvTr c8\fE-\soloE e g e c4 r
+    c8 e g e c4 r
+    c8 f a f c4 r
+    c8 f a f c4 r
+    c8 e g e c4 r %5
+    c' r h r
+    a r fis r
+    g g, g r
+    r g \tempoTriumphateB r2
+    r \tempoTriumphateC c4 r %10
+    b r a r
+    \time 5/4 \markTimeSig #'(5 4) \tempoTriumphateD a2\pE d4 \tempoTriumphateE r r
+    \time 4/4 \markTimeSig #'(4 4) \tempoTriumphateF h1
+    e
+    \time 5/4 \markTimeSig #'(5 4) d!2 c4 \tempoTriumphateG r r %15
+    \time 4/4 \markTimeSig #'(4 4) \tempoTriumphateH c1
+    r4 r8 d\fE g,4 r\fermata \bar "|." %17 finis
+  }
+}
+
+TriumphateBassFigures = \figuremode {
+  <5 3>2 \once \bassFigureExtendersOn q4 r
+  q2 \once \bassFigureExtendersOn q4 r
+  <6 4>2 \once \bassFigureExtendersOn q4 r
+  q2 \once \bassFigureExtendersOn q4 r
+  <5 3>2 \once \bassFigureExtendersOn q4 r %5
+  r2 <\t>
+  r <7>
+  r1
+  r
+  r %10
+  <2>2 <_+>
+  <\t>1 r4
+  <5\+ _+>1
+  r
+  <6 _!>2 r2. %15
+  <5 3>2 <4\+ 2>
+  r4. <7 _+>8 r2
+}

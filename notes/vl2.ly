@@ -177,3 +177,28 @@ VixitViolinoII = {
     h,\f h, r h' cis cis, r cis' \markDaCapo \bar "||" %139 finis
   }
 }
+
+TriumphateViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoTriumphate
+      \set Staff.timeSignatureFraction = 4/4
+    c8\fE e g e c e e e
+    c e g e c e e e
+    c f a f c a' a a
+    c, f a f c a' a a
+    c, e g e c e e e %5
+    c c' c c c, c' c c
+    c, c' c c c, c' c c
+    h4 <g' h, d, g,> q r
+    r q \tempoTriumphateB r2
+    r \tempoTriumphateC c,,8 c' c c %10
+    c, c' c c cis4 r
+    \time 5/4 \markTimeSig #'(5 4) \tempoTriumphateD cis2\pE d4 \tempoTriumphateE d,8[\fE d' d d]
+    \time 4/4 \markTimeSig #'(4 4) \tempoTriumphateF dis1\pE
+    h
+    \time 5/4 \markTimeSig #'(5 4) h2 c4 \tempoTriumphateG c,8[\fE c' c c] %15
+    \time 4/4 \markTimeSig #'(4 4) \tempoTriumphateH c2\pE a
+    r4 r8 c-!\fE h4-! r\fermata \bar "|." %17 finis
+  }
+}

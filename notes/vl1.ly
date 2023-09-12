@@ -339,3 +339,28 @@ AliquamViolinoIeII = {
     R2.*2 \markDaCapo \bar "||" %156 finis
   }
 }
+
+TriumphateViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoTriumphate
+      \set Staff.timeSignatureFraction = 4/4
+    c8\fE e g e c c' c c
+    c, e g e c c' c c
+    c, f a f c c' c c
+    c, f a f c c' c c
+    c, e g e c c' c c %5
+    e, e' e e e, e' e e
+    e, e' e e e, e' e e
+    d4 <g h, d, g,> q r
+    r q \tempoTriumphateB r2
+    r \tempoTriumphateC e,8 e' e e %10
+    e, e' e e e4 r
+    \time 5/4 \markTimeSig #'(5 4) \tempoTriumphateD e2\pE f4 \tempoTriumphateE f,8[\fE f' f f]
+    \time 4/4 \markTimeSig #'(4 4) \tempoTriumphateF fis1\pE
+    e
+    \time 5/4 \markTimeSig #'(5 4) f!2 e4 \tempoTriumphateG e,8[\fE e' e e] %15
+    \time 4/4 \markTimeSig #'(4 4) \tempoTriumphateH e2\pE d
+    r4 r8 fis-!\fE g4-! r\fermata \bar "|." %17 finis
+  }
+}
