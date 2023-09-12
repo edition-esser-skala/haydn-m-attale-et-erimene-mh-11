@@ -22,7 +22,7 @@ PantaleonTenore = {
 PantaleonTenoreLyrics = \lyricmode {
   Pan -- ta -- le -- on!
   O -- mnem ab -- ster -- ge
-  a -- ni -- mo mae -- ro -- rem quod
+  a -- ni -- mo moe -- ro -- rem quod
   per -- di -- tum do -- les prae --
   sen -- tem ti -- bi ha -- bes. %5
   Sed quid vi -- de -- o,

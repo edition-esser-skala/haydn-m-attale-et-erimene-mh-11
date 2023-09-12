@@ -26,7 +26,7 @@ InimicaBassoLyrics = \lyricmode {
   In -- i -- mi -- ca %9
   mi -- hi sem -- per sy -- de -- ra, %10
 
-  me -- um pro mi -- hi a -- %13
+  me -- um quae mi -- hi a -- %13
   mo -- rem ra -- pi -- tis,
 
   u -- bi, u -- bi, %17
