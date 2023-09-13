@@ -277,3 +277,257 @@ ApplaudoBassoLyrics = \lyricmode {
   do -- mi -- tos ma -- jor re -- sur -- ge %15
   po -- pu -- los. %16 finis
 }
+
+FelicemBasso = {
+  \relative c {
+    \clef bass
+    \twofourtime \key a \major \time 2/4 \autoBeamOff \tempoFelicem
+    R2*25 %25
+    r8 \mvTr a([\pE^\soloE cis e)]
+    a4 cis
+    r8 e,([ gis h)]
+    d4( h)
+    cis a %30
+    e4. d8
+    cis4 r
+    r e
+    a4. h8
+    cis4 dis %35
+    e8. e,16 e4
+    r h'
+    a2
+    h,4 a'
+    gis8. a16 h4 %40
+    r h
+    cis cis8 h
+    a([ gis)] fis([ e)]
+    dis([ cis)] h4
+    r fis' %45
+    gis8[ e dis cis]
+    h4 a'
+    gis8[ e dis cis]
+    h4 a'
+    gis gis8([ e)] %50
+    a[ fis h gis]
+    cis[ h a gis]
+    a fis h4
+    e, gis8([ e)]
+    a[ fis h gis] %55
+    cis[ h a gis]
+    a fis h4
+    e, r
+    R2*15 %73
+    r8 h([ e gis)]
+    h4 gis %75
+    r8 h,([ dis fis)]
+    a4( fis)
+    gis e8([ h')]
+    h4. a8
+    gis4 r %80
+    R2
+    r8 a,([ cis e)]
+    a4 cis
+    r8 e,([ gis h)]
+    d4( h) %85
+    cis a
+    e4. d8
+    cis4 r
+    r8 a' e cis
+    a4. g'8 %90
+    fis4 fis
+    h fis8 dis
+    h4. a'8
+    gis!4 e
+    e8[ gis h gis] %95
+    e[ a cis a]
+    e[ h' d h]
+    cis[ gis a] d,
+    e2
+    fis4 r %100
+    R2
+    r4 r8 e
+    a([ h)] cis([ d)]
+    e8. e,16 e8 e
+    a([ h)] cis d %105
+    e8. e,16 e4
+    r h'
+    cis8[ a gis fis]
+    e4 d'
+    cis8[ a gis fis] %110
+    e4 d'
+    cis cis,8([ a)]
+    d[ h e cis]
+    fis[ e d cis]
+    d h e4 %115
+    a, cis8([ a)]
+    d[ h e cis]
+    fis[ e d cis]
+    d h e4
+    a, r %120
+    R2*15 \noBreak %135
+    R2\fermata \bar "||"
+    fis'4 a8 fis \noBreak
+    cis'8. cis,16 cis4
+    r8 h' a gis
+    a8. h16 cis4 %140
+    r8 h a gis
+    a8. gis16 fis4
+    R2
+    a4. a8
+    a4 g %145
+    fis8[ d cis h]
+    a4 g'
+    fis8[ e dis cis]
+    h4 a'
+    gis!8[ fis eis dis?] %150
+    cis4 h'
+    a4. gis8
+    fis[ e! dis cis]
+    his4 gis'
+    cis e,!8 e %155
+    fis4 gis
+    cis, r
+    fis ais8 fis
+    h8. cis16 d!4
+    e, gis8 e %160
+    a8. h16 cis4
+    d4. cis8
+    h([ a)] gis([ fis)]
+    eis([ dis)] cis4
+    r gis' %165
+    a8[ fis eis dis]
+    cis4 h'
+    a8[ fis eis dis]
+    cis4 h'
+    a fis %170
+    a gis8 fis
+    h4 cis
+    d r
+    h, cis
+    fis, r \markDaCapo \bar "||" %175 finis
+  }
+}
+
+FelicemBassoLyrics = \lyricmode {
+  Fe -- %26
+  li -- cem,
+  fe --
+  li --
+  cem te %30
+  prin -- ci --
+  pem,
+  nunc
+  te, nunc
+  te jam %35
+  Per -- ga -- ma,
+  nunc
+  sub --
+  di -- ta
+  flu -- mi -- na %40
+  ad --
+  o -- rant, ad --
+  o -- rant
+  re -- gem,
+  ad -- %45
+  o --
+  _ _
+  _
+  _ _
+  rant, ad -- %50
+  o --
+  _
+  _ rant re --
+  gem, ad --
+  o -- %55
+  _
+  _ rant re --
+  gem.
+
+  Fe -- %74
+  li -- cem, %75
+  fe --
+  li --
+  cem te __
+  prin -- ci --
+  pem, %80
+
+  fe --
+  li -- cem,
+  fe --
+  li -- %85
+  cem te
+  prin -- ci --
+  pem,
+  nunc te jam
+  Per -- ga -- %90
+  ma, nunc
+  sub -- di -- ta
+  flu -- mi --
+  na ad --
+  o -- %95
+  _
+  _
+  _ rant
+  re --
+  gem, %100
+
+  nunc
+  te __ jam
+  Per -- ga -- ma, nunc
+  sub -- di -- ta %105
+  flu -- mi -- na
+  ad --
+  o --
+  _ _
+  _ %110
+  _ _
+  rant, ad --
+  o --
+  _
+  _ rant re -- %115
+  gem, ad --
+  o --
+  _
+  _ rant re --
+  gem. %120
+
+  I, fe -- lix %137
+  im -- pe -- ra
+  dum te ut
+  cae -- sa -- rem, %140
+  dum te ut
+  cae -- sa -- rem
+
+  me -- ri --
+  tis jam %145
+  gra --
+  _ _
+  _
+  _ _
+  _ %150
+  _ _
+  _ _
+  _
+  vem su --
+  sci -- pi -- ant %155
+  Nu -- mi --
+  na.
+  I, fe -- lix
+  im -- pe -- ra
+  dum te ut %160
+  cae -- sa -- rem
+  me -- ri --
+  tis __ jam
+  gra -- vem,
+  jam %165
+  gra --
+  _ _
+  _
+  _ _
+  vem su -- %170
+  sci -- pi -- ant
+  Nu -- mi --
+  na,
+  Nu -- mi --
+  na. %175 finis
+}

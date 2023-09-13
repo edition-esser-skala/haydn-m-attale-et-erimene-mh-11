@@ -344,3 +344,185 @@ ApplaudoViolinoII = {
     r4 r8 fis-!\fE gis4-! r\fermata \bar "|." %16 finis
   }
 }
+
+FelicemViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \major \time 2/4 \tempoFelicem
+    r8 a\fE cis e
+    a16 gis a h cis4
+    r8 e, gis h
+    d16 cis d cis h4
+    r8 a cis e %5
+    a4~ a16 gis fis e
+    fis8 a4 a8~
+    a a4 a8~
+    a16 gis fis e fis e d cis
+    h8 e h gis %10
+    e4 r
+    e16 fis gis a h d cis h
+    a h cis h cis a gis a
+    e fis gis a h d cis h
+    a h cis h cis a gis a %15
+    e fis gis a h d cis h
+    a8 \once \slurDashed e'(-. e-. e-.)
+    e4.( eis8)
+    fis fis, fis fis
+    fis4 e16 d cis h %20
+    cis8 e'(-. e-. e-.)
+    e a4 gis8
+    fis fis, fis fis
+    fis4 e16 d cis h
+    cis8 a' e cis %25
+    a4 r
+    a8\p cis e a
+    gis4 r
+    e8 gis h e
+    cis, e a cis %30
+    cis,4. h8
+    a a'\f e cis
+    a4 r
+    e'8\p e e e
+    e e e e %35
+    e e e e
+    e e e e
+    e e e e
+    dis dis dis dis
+    e e e fis %40
+    gis gis a h
+    a a a a
+    fis fis fis fis
+    fis h\f fis dis
+    h4 r %45
+    h8\pE h h h
+    h h h h
+    h h h h
+    h h h h
+    h e gis e %50
+    a fis h gis
+    cis h a gis
+    a fis h h,
+    e e'\pocoF e16 e e e
+    e e e e e e e e %55
+    e e e e e e e e
+    e e e e dis dis dis dis
+    e\f dis cis h a gis fis e
+    h'8 h, r4
+    h16 cis dis e fis a gis fis %60
+    e fis gis fis gis e dis e
+    h cis dis e fis a gis fis
+    e fis gis fis gis e dis e
+    fis' e dis cis h a gis fis
+    e8 h' h h %65
+    h4.( his8)
+    cis cis, cis cis
+    a'4 gis16 fis e dis
+    e8 h' h h
+    h e4 dis8 %70
+    cis cis cis cis
+    cis4 h16 a gis fis
+    gis8 e' h gis
+    e4 r
+    e8\p gis h e %75
+    dis4 r
+    h,8 dis fis h
+    gis, h e gis
+    gis4. fis8
+    e e\f gis h %80
+    e e,16 d! cis8 h
+    a4 r
+    a8\p cis e a
+    gis4 r
+    e8 gis h e %85
+    cis, e a cis
+    cis,4. h8
+    a a'\f e cis
+    a4 r
+    cis8\p cis e e %90
+    d d d d
+    dis dis dis dis
+    fis fis fis fis
+    e e e e
+    e e e e %95
+    e e e e
+    e e e e
+    e d! cis a'
+    a a gis gis
+    a16\f cis cis cis cis cis cis cis %100
+    a dis dis dis dis dis dis dis
+    e8 e16 d cis8 h
+    a cis\p cis cis
+    h h h h
+    a a a a %105
+    gis e'\f h gis
+    e4 r
+    e8\p e e e
+    e e e e
+    e e e e %110
+    e e e e
+    e a, cis a
+    d h e cis
+    fis e d cis
+    d h e e %115
+    a a'\pocoF a16 a a a
+    a a a a a a a a
+    a a a a a a a a
+    a a a a gis gis gis gis
+    a\ff gis fis e d cis h a %120
+    e'8 e, r4
+    e16 fis gis a h d cis h
+    a h cis h cis a gis a
+    e fis gis a h d cis h
+    a h cis h cis a gis a %125
+    e fis gis a h d cis h
+    a8 e'(-. e-. e-.)
+    e4.( eis8)
+    fis fis, fis fis
+    fis4 e16 d cis h %130
+    cis8 e' e e
+    e a4 gis8
+    fis fis, fis fis
+    fis4 e16 d cis h
+    cis8 a' e cis \noBreak %135
+    a4\fermata r \bar "||"
+    a'8\p a a a \noBreak
+    gis gis gis gis
+    gis gis gis gis
+    a a a a %140
+    gis gis gis gis
+    a a a a
+    g\f g g g
+    fis fis\p fis fis
+    e e e e %145
+    fis d d d
+    e cis e cis
+    fis4 r
+    fis8 dis fis dis
+    gis! cis r4 %150
+    gis8 eis gis eis
+    fis a a gis
+    fis e! dis cis
+    his4 gis'
+    cis e, %155
+    fis gis
+    cis, r
+    cis'8 cis cis cis
+    h! d! d d
+    h h h h %160
+    a! cis cis cis
+    h h h h
+    h a gis fis
+    eis eis eis eis
+    eis cis cis cis %165
+    cis cis cis cis
+    cis cis cis cis
+    cis cis cis cis
+    cis cis cis cis
+    cis4 fis %170
+    a gis8 fis
+    h4 cis
+    d r
+    h, cis
+    fis r \markDaCapo \bar "||" %175 finis
+  }
+}

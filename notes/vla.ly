@@ -482,3 +482,113 @@ ApplaudoViola = {
     r4 r8 h'\fE h4 r\fermata \bar "|." %16 finis
   }
 }
+
+FelicemViola = {
+  \relative c' {
+    \clef alto
+    \twofourtime \key a \major \time 2/4 \tempoFelicem
+    cis4\fE r
+    a8 cis e a
+    gis4 r
+    e8 gis h e
+    cis4 r %5
+    cis,8 cis e e
+    d d e e
+    d d e e
+    d d d d
+    e e' h gis %10
+    e e e e
+    d' e, e e
+    cis' e, e e
+    d' e, e e
+    cis' e, e e %15
+    d' e, e e
+    e4 r
+    r8 a(-. a-. a-.)
+    a4 r
+    r8 d, e e %20
+    e4 r
+    r8 a(-. a-. a-.)
+    a4 r
+    r8 d, e e
+    e a e cis %25
+    a4 r
+    R2*5 %31
+    r8 a'\f e cis
+    a4 r
+    R2*10 %43
+    r8 h'\f fis dis
+    h4 r %45
+    R2*4
+    r4 gis'8\p e %50
+    a fis h gis
+    cis h a gis
+    a fis h h,
+    e e\pocoF gis e
+    a fis h gis %55
+    cis h a gis
+    a fis h h,
+    e e\f e e
+    dis h' fis dis
+    a' h, h h %60
+    gis' h, h h
+    a' h, h h
+    gis' h, h h
+    h h h h
+    h4 r %65
+    r8 e e e
+    e4 r
+    r8 cis h16 a gis fis
+    gis4 r
+    r8 gis' a h %70
+    e,4 r
+    r8 a h h,
+    e e' h gis
+    e4 r
+    R2*5 %79
+    r8 e\f gis h %80
+    e e,16 d! cis8 h
+    a4 r
+    R2*5 %87
+    r8 a'\f e cis
+    a4 r
+    R2*10 %99
+    fis'8\f fis fis fis %100
+    fis fis fis fis
+    e e'16 d! cis8 h
+    a4 r
+    R2*2 %105
+    r8 e'\fE h gis
+    e4 r
+    R2*4 %111
+    r8 a,\pE cis a
+    d h e cis
+    fis e d cis
+    d h e e, %115
+    a a\pocoF cis a
+    d h e cis
+    fis e d cis
+    d h e e,
+    a a'\ff a a %120
+    gis e' h gis
+    d' e, e e
+    cis' e, e e
+    d' e, e e
+    cis' e, e e %125
+    d' e, e e
+    e4 r
+    r8 a a a a4 r
+    r8 d, e e e4 r
+    r8 cis d e d4 r %130
+    r8 d e e
+    e a e cis \noBreak
+    a4\fermata r \bar "||"
+    R2*33 %169
+    r4 fis'\pE %170
+    a gis8 fis
+    h4 cis
+    d r
+    h, cis
+    fis r \markDaCapo \bar "||" %175 finis
+  }
+}
