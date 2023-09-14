@@ -411,55 +411,121 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "10" "Aria" "Morere impie"
+  %   \addTocLabel "morere"
+  %   \paper { systems-per-page = #2 }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \MorereViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \MorereViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff  <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \MorereAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \MorereAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \MorereTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \MorereTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \MorereBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \MorereBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \MorereBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \MorereBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4. = 50 }
+  %   }
+  % }
   \bookpart {
-    \section "10" "Aria" "Morere impie"
-    \addTocLabel "morere"
-    \paper { systems-per-page = #2 }
+    \section "11" "Choro" "Io triumphate populi"
+    \addTocLabel "populi"
     \score { %\articulate
       <<
+        \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "clno" "C" "" "1, 2" }
+            \partCombine #'(0 . 10) \PopuliClarinoI \PopuliClarinoII
+          >>
+        >>
+        \new Staff {
+          \set Staff.instrumentName = \transposedTimpShort "C" "" "G" ""
+          \PopuliTimpani
+        }
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \MorereViolinoI
+              \PopuliViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \MorereViolinoII
+              \PopuliViolinoII
             }
           >>
         >>
         \new ChoirStaff  <<
           \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \MorereAlto }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \PopuliSoprano }
           }
-          \new Lyrics \lyricsto Alto \MorereAltoLyrics
+          \new Lyrics \lyricsto Soprano \PopuliSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \PopuliAlto }
+          }
+          \new Lyrics \lyricsto Alto \PopuliAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \MorereTenore }
+            \new Voice = "Tenore" { \dynamicUp \PopuliTenore }
           }
-          \new Lyrics \lyricsto Tenore \MorereTenoreLyrics
+          \new Lyrics \lyricsto Tenore \PopuliTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \MorereBasso }
+            \new Voice = "Basso" { \dynamicUp \PopuliBasso }
           }
-          \new Lyrics \lyricsto Basso \MorereBassoLyrics
+          \new Lyrics \lyricsto Basso \PopuliBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \MorereBassoContinuo
+            \PopuliBassoContinuo
           }
         >>
-        \new FiguredBass { \MorereBassFigures }
+        \new FiguredBass { \PopuliBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4. = 50 }
+      \midi { \tempo 4 = 90 }
     }
   }
 }

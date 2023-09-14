@@ -779,3 +779,44 @@ MorereBassoLyrics = \lyricmode {
   ma --
   vit. %173 finis
 }
+
+PopuliBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoPopuli
+    R1*3
+    \mvDl c'4\fE^\tuttiE h c8 c, a' h
+    c8. c16 g4 c8 c, f fis %5
+    g8. g,16 g4 g'4. g8
+    gis4 a fis4. fis8
+    g8. g,16 g4 g'8. g16 d4
+    e h8 h c8. c16 g4
+    r8 e'16([ d)] c8([ d)] g,4 r %10
+    r2 g'4 fis
+    g8 g e fis g8. g16 d4
+    h'8 a gis gis a8. a16 e4
+    a4. a8 d,4 f!8([ d)]
+    g!4 h8([ g)] c8. c,16 c4 %15
+    f4. fis16 fis g8([ f)] e c
+    h8. h16 h'8 c g4 g,
+    c'8. c16 g4 a e8 e
+    f8. f16 c4 r8 a'16([ g)] f8([ g)]
+    c,4 r r2 %20
+    r\fermata a'4 a8 a
+    d,4 g c,8 d16([ e)] f8 f
+    h,4 e a4. g!8
+    fis4. e8 dis4. h8
+    e8. fis16 g4 a4. fis8 %25
+    g8.([ fis16)] g8 c a([ g16 fis)] h4
+    e, r e4. e8
+    a8.([ h16)] c8 a d,4 g!
+    c,8 c f!4 h, e
+    a, a'8 f d4 e %30
+    f8([ e)] d([ cis)] d4 e
+    a, r r2 \markDaCapo \bar "||" %32 finis
+  }
+}
+
+PopuliBassoLyrics = \lyricmode {
+
+}

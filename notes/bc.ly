@@ -1814,3 +1814,77 @@ MorereBassFigures = \figuremode {
   r4.
   r %192 finis
 }
+
+PopuliBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoPopuli
+    \mvTr c8\fE-\soloE c' h g a, a' e c
+    f f, r f' e e, r e'
+    d c h g c e g g,
+    c-\tuttiE c' h g c c, a' h
+    c c, g' g c c, f fis %5
+    g4 g, g'8 a h a
+    gis e a g fis e fis d
+    g g, g' h16 a g8 r d r
+    e r h r c r g g'16 fis
+    e8 e16 d c8 d g, g' fis-\soloE d %10
+    e h c d g,-\tuttiE g' fis d
+    g g, e' fis g g, d' c
+    h a gis gis' a a, e' d
+    c h a a' d, d f! d
+    g! g h g c c, e c %15
+    f e f fis g f e c
+    h g h' c g g, g'16 h a g
+    c8 r g r a r e r
+    f r c c'16 h a8 a16 g f8 g
+    c, c' h-\soloE g a \tuplet 3/2 8 { e16 d c } f8 g %20
+    c,4\fermata c8 h a-\tuttiE a'16 gis a8 a,
+    d e16 f g8 g, c d16 e f8 f,
+    h c16 d e8 e, a c'16 h a8 g!
+    fis a16 g fis8 e dis dis16 cis dis8 h
+    e e16 fis g8 e a, a'16 g a8 fis %25
+    g g16 fis g8 c a g16 fis h8 h,
+    e e16 fis gis8 fis e e16 fis gis8 e
+    a a16 h c8 a d, d'16 c h8 g
+    c, c'16 h a8 f! h, h'16 a gis8 e
+    a, a'16 gis a8 f d c16 h e8 e %30
+    f f16 e d8 cis d c16 h e8 e
+    a, a'16 gis a8-\soloE a, h h'16 a h8 h, \markDaCapo \bar "||" %32 finis
+  }
+}
+
+PopuliBassFigures = \figuremode {
+  r4 <6>2 q4
+  q2 q
+  r4 <6 5>2.
+  r4 <6>2 q8 <6 5>
+  r2. <6>8 <7> %5
+  <6 4>4 <5 3>2.
+  <6 5>2 q
+  <9 4>4 <8 3>2 <_+>4
+  r <5\+>2.
+  r4 <6 5>8 <_+> r4 <6>8 <_+> %10
+  r <6> <6 5> <_+>4. <6>8 <_+>
+  r4 <6>8 <6 5> r4 <_+>8 <\t>
+  <6\\>8 <6! 4 3> <6 5>2 <_+>8 <\t>
+  <6>2 <_!>
+  <7> <9 4>4 <6> %15
+  q4. <7>8 <6 4> q <6>4
+  q <6 5> <6 4> <5 3>
+  r1
+  r2. <6 5>4
+  r4 <6>4. q8 <6 5>4 %20
+  r4. <6\\>8 r2
+  r1
+  r4 <_+>2 r8 <\t>
+  <5>4. <\t>8 <6 _+>4. <7 5\+ _+>8
+  r4 <6>2 r8 <7> %25
+  <6> <\tllur>16 <6\\> <6>8 <5> <6\\ 5>4 <5\+ _+>
+  r4 <6> <_+>2
+  r <_!>4 <6 5>
+  <9 4>8 <8 3> <6 5>4 <9 4>8 <8 3> <6 5>4
+  <9 4>8 <8 3>4 <5>8 <6 5>4 <_+> %30
+  <5> <3>8 <6> <6 5>4 <_+>
+  r2 <6!> %32 finis
+}

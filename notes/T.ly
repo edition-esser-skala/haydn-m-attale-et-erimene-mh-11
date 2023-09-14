@@ -518,3 +518,72 @@ MorereTenoreLyrics = \lyricmode {
   ma --
   vit. %173 finis
 }
+
+PopuliTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoPopuli
+    R1*3
+    \mvDl e4\fE^\tuttiE d c8 c c d
+    c8. c16 h4 c8 c a a %5
+    g8. g16 g4 h4. h8
+    h4 a a4. a8
+    a8. g16 g4 d'8. d16 d4
+    h h8 h g8. g16 g4
+    r8 e' e([ d)] d4 r %10
+    r2 h4 a
+    g8 g g a g8. g16 fis4
+    d'8 c h e e8. e16 e4
+    e4. e8 d4^\critnote d
+    d d d8. c16 c4 %15
+    f4. e16 e \appoggiatura e8 d4 c8 e
+    d8. d16 d8 c c4 h
+    g'8. g16 g4 e e8 e
+    c8. c16 c4 r8 c c([ h)]
+    c4 r r2 %20
+    r\fermata c4 c8 c
+    d4 h c8. h16 a8 a
+    h4 gis a4. a8
+    a4 a h4. dis8
+    e8. h16 h4 a4. c8 %25
+    h4 h8 c^\critnote c4( h)
+    h r e4. e8
+    e8.([ d16)] c4 d4. d8
+    d c c4 c8([ h)] h4
+    h8([ a)] a a a4( gis) %30
+    a a h2
+    a4 r r2 \markDaCapo \bar "||" %32 finis
+  }
+}
+
+PopuliTenoreLyrics = \lyricmode {
+  I -- o tri -- um -- pha -- te %4
+  po -- pu -- li, plau -- sus da -- te %5
+  sub -- di -- ti, scep -- trum
+  qui -- dem ces -- sit
+  At -- ta -- lo, re -- gi -- o
+  ca -- ret E -- u -- me -- nes
+  ho -- no -- re. %10
+  I -- o
+  tri -- um -- pha -- te po -- pu -- li,
+  plau -- sus da -- te sub -- di -- ti,
+  scep -- trum qui -- dem
+  ces -- sit At -- ta -- lo, %15
+  re -- gi -- o ca -- ret E --
+  u -- me -- nes ho -- no -- re,
+  re -- gi -- o ca -- ret E --
+  u -- me -- nes ho -- no --
+  re. %20
+  Nunc du -- os
+  fra -- tres co -- li -- tis at
+  Re -- ges, u -- bi
+  u -- nus vos im --
+  pe -- ri -- o, al -- ter %25
+  re -- git a -- mo --
+  re, u -- bi
+  u -- nus vos im --
+  pe -- ri -- o, al -- ter
+  re -- git a -- mo -- %30
+  re, a -- mo --
+  re. %32 finis
+}

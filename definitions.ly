@@ -32,6 +32,7 @@ tempoApplaudo = \tempoMarkup "Allegro"
 tempoFelicem = \tempoMarkup "Allegro non molto"
 tempoNuncTandem = \tempoMarkup "Recitativo"
 tempoMorere = \tempoMarkup "Andante molto"
+tempoPopuli = \tempoMarkup "[Allegro]"
 
 
 \include "notes/cor1.ly"

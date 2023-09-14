@@ -507,3 +507,72 @@ MorereAltoLyrics = \lyricmode {
   ma --
   vit. %173 finis
 }
+
+PopuliAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoPopuli
+    R1*3
+    \mvDl g'4\fE^\tuttiE g g8 g a g
+    g8. g16 g4 g8 g f e %5
+    e8. d16 d4 g4. g8
+    e4 e d4. d8
+    d8. d16 d4 h'8. h16 a4
+    g fis8 fis e8. e16 d4
+    r8 g g([ fis)] g4 r %10
+    r2 d4 d
+    d8 d e d d8. d16 d4
+    gis8 a h h a8. a16 gis4
+    c4. c8 a4 a
+    h h g8. g16 g4 %15
+    a4. a16 a g4 g8 g
+    g8. g16 g8 g g4 g
+    c8. c16 h4 a g8 g
+    f8. f16 e4 r8 a a([ g)]
+    g4 r r2 %20
+    r\fermata a4 a8 a
+    a4 g e8. e16 a8 f
+    f4 e e4. e8
+    fis4 fis fis4. fis8
+    e8. e16 e4 e4. e8 %25
+    e([ a)] g g fis2
+    e4 r gis4. gis8
+    a4 a a g
+    g8 g f!4 f e
+    e e8 f f4( e) %30
+    c d8([ e)] f4( e)
+    e r r2 \markDaCapo \bar "||" %32 finis
+  }
+}
+
+PopuliAltoLyrics = \lyricmode {
+  I -- o tri -- um -- pha -- te %4
+  po -- pu -- li, plau -- sus da -- te %5
+  sub -- di -- ti, scep -- trum
+  qui -- dem ces -- sit
+  At -- ta -- lo, re -- gi -- o
+  ca -- ret E -- u -- me -- nes
+  ho -- no -- re. %10
+  I -- o
+  tri -- um -- pha -- te po -- pu -- li,
+  plau -- sus da -- te sub -- di -- ti,
+  scep -- trum qui -- dem
+  ces -- sit At -- ta -- lo, %15
+  re -- gi -- o ca -- ret E --
+  u -- me -- nes ho -- no -- re,
+  re -- gi -- o ca -- ret E --
+  u -- me -- nes ho -- no --
+  re. %20
+  Nunc du -- os
+  fra -- tres co -- li -- tis at
+  Re -- ges, u -- bi
+  u -- nus vos im --
+  pe -- ri -- o, al -- ter %25
+  re -- git a -- mo --
+  re, u -- bi
+  u -- nus vos im --
+  pe -- ri -- o, al -- ter
+  re -- git a -- mo -- %30
+  re, a -- mo --
+  re. %32 finis
+}

@@ -725,3 +725,42 @@ MorereViolinoII = {
     f4 r8 \markDaCapo \bar "||" %192 finis
   }
 }
+
+PopuliViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoPopuli
+    c'8\fE \tuplet 3/2 8 { e16 d c } g'8 g c, \tuplet 3/2 8 { e16 d c } c'8 c
+    a16 f e d cis d cis d g e d c h c h c
+    f8.\trill e32 f g,16 h d f \sbOn \tuplet 3/2 8 { e d c } h-! c-! \sbOff d,8 h'
+    c \tuplet 3/2 8 { e16 d c } g'8 g c, \tuplet 3/2 8 { e16 d c } f8 f
+    e \tuplet 3/2 8 { g16 f e } d8 g, g g f e %5
+    e8. d16 d4 g4. g8
+    e4 e d4. d8
+    d8. d16 d4 g'8 \tuplet 3/2 8 { h16 a g } d'8 d
+    r \tuplet 3/2 8 { g,16 fis e } h'8 h r \tuplet 3/2 8 { e,16 d c } g'8 g
+    h g a, fis' g, \tuplet 3/2 8 { h16 a g } d'8 \tuplet 3/2 8 { fis,16 e d } %10
+    g8 \tuplet 3/2 8 { h,16 a g } c8 d g \tuplet 3/2 8 { h16 a g } d'8 d
+    g, \tuplet 3/2 8 { h16 a g } c8 c h \tuplet 3/2 8 { d16 c h } a8 d,
+    d' \tuplet 3/2 8 { f!16 e d } h'8 d, c \tuplet 3/2 8 { e16 d c } h8 e,
+    c'4. c8 a4 a
+    h h g8. g16 g4 %15
+    a4. a8 g4 g8 g
+    g8. g16 g8 g g4 g
+    c8 \tuplet 3/2 8 { e16 d c } g'8 g r \tuplet 3/2 8 { c,16 h a } e'8 e
+    r \tuplet 3/2 8 { a16 g f } c'8 c c c, d h'
+    c, \tuplet 3/2 8 { e16 d c } g'8 \tuplet 3/2 8 { h,16 a g } c8 \tuplet 3/2 8 { e,16 d c } f8 g %20
+    c,4\fermata c8 h a a'16 gis a8 a,
+    d e16 f g8 g, c d16 e f8 f
+    h, c16 d e8 e a, c'16 h a8 g!
+    fis a16 g fis8 e dis dis16 cis dis8 h
+    e e16 fis g8 e a, a'16 g a8 fis %25
+    g g16 fis g8 c a g16 fis h8 h,
+    e e16 fis gis8 fis e e16 fis gis8 e
+    a a16 h c8 a d, d'16 c h8 g
+    c, c'16 h a8 f! h, h'16 a gis8 e
+    a, a'16 gis a8 f d c16 h e8 e %30
+    f f16 e d8 cis d c16 h e8 e
+    a, a'16 gis a8 a, h h'16 a h8 h, \markDaCapo \bar "||" %32 finis
+  }
+}
