@@ -31,6 +31,7 @@ tempoQuamBonum = \tempoMarkup "Allegro"
 tempoApplaudo = \tempoMarkup "Allegro"
 tempoFelicem = \tempoMarkup "Allegro non molto"
 tempoNuncTandem = \tempoMarkup "Recitativo"
+tempoMorere = \tempoMarkup "Andante molto"
 
 
 \include "notes/cor1.ly"

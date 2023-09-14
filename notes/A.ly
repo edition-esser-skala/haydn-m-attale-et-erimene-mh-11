@@ -245,3 +245,265 @@ NuncTandemAltoLyrics = \lyricmode {
   fra -- tre sae -- vi -- re. Ah
   fra -- ter os com -- pri -- me. %12 finis
 }
+
+MorereAlto = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/8 \autoBeamOff \tempoMorere
+    \mvTr f8.\pE^\soloE c16 c8
+    b'16 a a8 r
+    R4.
+    r8 r f
+    a8. g16 f8 %5
+    c' c, r
+    R4.*5 %11
+    r8 r g'
+    fis c' c
+    h16([ a)] g8 r
+    R4. %15
+    r8 r g
+    a f16([ g)] a([ h)]
+    c([ d)] e8 r
+    d,4.
+    e8 d r %20
+    r r d
+    es d r
+    R4.
+    g8 f16([ e!)] d([ c)]
+    a'4.~ %25
+    a8[ g16 f e d]
+    h'4.~
+    h8[ a16 g f e]
+    c'4.~
+    c8[ h16 a g f] %30
+    d'[ c h a g f]
+    e8[ c'] a
+    f e([ d)]\trill
+    c c'4
+    \tuplet 3/2 8 { a16([ g f] } e8[ d)]\trill %35
+    c c'4
+    \tuplet 3/2 8 { a16([ g f] } e8[ d)]\trill
+    c r r
+    R4.*12 %50
+    c'8. g16 g8
+    f16 e e8 r
+    R4.
+    r8 r c'
+    c b! a %55
+    b16([ c)] d8 r
+    R4.
+    r8 r b
+    b a g
+    a16([ b)] c8 r %60
+    R4.*5 %65
+    r8 r c
+    h h h
+    c c, r
+    R4.*7 %75
+    r8 r g'
+    as c as
+    as g c,
+    b'4.
+    a!4 r8 %80
+    R4.
+    r8 r b
+    b b b
+    a a a
+    a a a %85
+    g4 g8
+    g4.
+    f4 f8
+    \tuplet 3/2 8 { b16([ a g] } f8[ e)]\trill
+    f4 r8 %90
+    R4.*3
+    r8 r c'
+    h h h %95
+    c c, c'
+    es4.
+    d4 r8
+    R4.
+    r8 r c %100
+    c4.
+    b4 r8
+    R4.*3 %105
+    f8 es16([ d)] c([ b)]
+    g'4.~
+    g8[ f16 e! d c]
+    a'4.~
+    a8[ g16 f e d] %110
+    b'4.~
+    b16[ a g f e8]
+    f[ a] b
+    g f([ e)]\trill
+    f a4 %115
+    \tuplet 3/2 8 { b16([ a g] } f8[ e)]\trill
+    f a4
+    \tuplet 3/2 8 { b16([ a g] } f8[ e)]\trill
+    f4 r8
+    R4.*12 \noBreak %131
+    R4.\fermata \bar "||"
+    R4.*5 %137
+    g8 g a
+    b8. c16 d8
+    f, es4\trill %140
+    d r8
+    R4.*3
+    as'4 r8 %145
+    g4 r8
+    c c c
+    c8.([ d16)] es8
+    d c h
+    c h r %150
+    es, es es
+    es8.([ f16)] g8
+    f es d
+    es4.~
+    es~ %155
+    es~
+    es8 d d
+    d c r
+    f es16([ d)] c([ b)]
+    g'4.~ %160
+    g8[ f16 es d c]
+    a'4.~
+    a8[ g16 f es d]
+    b'4.~
+    b8[ a16 g f es] %165
+    c'[ b a g f es]
+    d8[ b'] g
+    es d([ c)]\trillE
+    b b'4
+    \tuplet 3/2 8 { g16([ f es] } d8[ c)]\trillE %170
+    b8 b'4
+    \tuplet 3/2 8 { g16([ f es] } d8[ c)]\trillE
+    b4 r8
+    R4.*19 \markDaCapo \bar "||" %192 finis
+  }
+}
+
+MorereAltoLyrics = \lyricmode {
+  Mo -- re -- re
+  im -- pi -- e,
+
+  in --
+  gra -- te su -- %5
+  per -- be,
+
+  hanc %12
+  e -- go de --
+  tre -- cto,
+  %15
+  proh
+  fu -- ror, proh
+  i -- ra,
+  quis
+  un -- quam, %20
+  quis
+  un -- quam
+
+  i -- ta __ cer --
+  ta -- %25
+
+  _
+
+  _
+  %30
+  _
+  _ vit,
+  cer -- ta --
+  vit, cer --
+  ta -- %35
+  vit, cer --
+  ta --
+  vit.
+
+  Mo -- re -- re %51
+  im -- pi -- e,
+
+  in --
+  gra -- te su -- %55
+  per -- be,
+
+  in --
+  gra -- te su --
+  per -- be, %60
+
+  hanc %66
+  e -- go de --
+  tre -- cto,
+
+  proh %76
+  fu -- ror, proh
+  i -- ra, quis
+  un --
+  quam, %80
+
+  quis
+  un -- quam cum
+  ho -- ste, quis
+  un -- quam cum %85
+  fra -- tre
+  i --
+  ta cer --
+  ta --
+  vit, %90
+
+  proh %94
+  fu -- ror, proh %95
+  i -- ra, quis
+  un --
+  quam,
+
+  quis %100
+  un --
+  quam
+
+  i -- ta __ cer -- %106
+  ta --
+
+  _
+  %110
+  _
+
+  _ vit,
+  cer -- ta --
+  vit, cer -- %115
+  ta --
+  vit, cer --
+  ta --
+  vit.
+
+  Quid vel -- lis %138
+  im -- pi -- e,
+  pro -- po -- %140
+  ne,
+
+  quis, %145
+  quis
+  un -- quam vel
+  ho -- stem
+  i -- ta a --
+  ma -- vit, %150
+  un -- quam vel
+  fra -- trem
+  i -- ta a --
+  ma --
+
+  vit, a -- %157
+  ma -- vit,
+  i -- ta a --
+  ma -- %160
+
+  _
+
+  _
+  %165
+  _
+  _ vit
+  a -- ma --
+  vit, a --
+  ma -- %170
+  vit, a --
+  ma --
+  vit. %173 finis
+}

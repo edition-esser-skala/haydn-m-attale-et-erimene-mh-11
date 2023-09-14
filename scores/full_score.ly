@@ -381,34 +381,85 @@
   %     \midi { \tempo 4 = 110 }
   %   }
   % }
+  % \bookpart {
+  %   \section "9" "Recitativo" "Nunc tandem tentabo"
+  %   \addTocLabel "nunctandem"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #20
+  %     system-system-spacing.minimum-distance = #20
+  %     systems-per-page = #3
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "A" "T" "B" }
+  %           \new Voice = "Alto" { \dynamicUp \NuncTandemAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \NuncTandemAltoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \NuncTandemBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \NuncTandemBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "9" "Recitativo" "Nunc tandem tentabo"
-    \addTocLabel "nunctandem"
-    \paper {
-      system-system-spacing.basic-distance = #20
-      system-system-spacing.minimum-distance = #20
-      systems-per-page = #3
-    }
+    \section "10" "Aria" "Morere impie"
+    \addTocLabel "morere"
+    \paper { systems-per-page = #2 }
     \score { %\articulate
       <<
-        \new ChoirStaff <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \MorereViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \MorereViolinoII
+            }
+          >>
+        >>
+        \new ChoirStaff  <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "A" "T" "B" }
-            \new Voice = "Alto" { \dynamicUp \NuncTandemAlto }
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \MorereAlto }
           }
-          \new Lyrics \lyricsto Alto \NuncTandemAltoLyrics
+          \new Lyrics \lyricsto Alto \MorereAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \MorereTenore }
+          }
+          \new Lyrics \lyricsto Tenore \MorereTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \MorereBasso }
+          }
+          \new Lyrics \lyricsto Basso \MorereBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \NuncTandemBassoContinuo
+            \MorereBassoContinuo
           }
         >>
-        \new FiguredBass { \NuncTandemBassFigures }
+        \new FiguredBass { \MorereBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 4. = 50 }
     }
   }
 }

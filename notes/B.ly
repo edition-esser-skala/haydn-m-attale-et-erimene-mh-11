@@ -531,3 +531,251 @@ FelicemBassoLyrics = \lyricmode {
   Nu -- mi --
   na. %175 finis
 }
+
+MorereBasso = {
+  \relative c {
+    \clef bass
+    \key f \major \time 3/8 \autoBeamOff \tempoMorere
+    R4.*2
+    \mvTr d'8\pE^\soloE d, e16 e
+    f e f8 r
+    R4. %5
+    r8 r g
+    a8. g16 f8
+    c' c, r
+    R4.*6 %14
+    r8 r c' %15
+    h16([ c)] d8 r
+    R4.*3
+    r8 r d, %20
+    e d r
+    r r d
+    es d r
+    R4.*2 %25
+    f8 f fis
+    g g, r
+    g' g gis
+    a a, r
+    a' a a %30
+    g!4.
+    c,4 f8
+    a g4
+    c,8 r c
+    f( g4) %35
+    c,8 r c
+    f( g4)
+    c,8 r r
+    R4.*14 %52
+    a'8 a h16 h
+    c c, c8 r
+    R4. %55
+    r8 r g'
+    a8. b!16 c8
+    b16([ a)] g8 r
+    R4.
+    r8 r f %60
+    g8. a16 b8
+    a16([ g)] f8 r
+    R4.*7 %69
+    r8 r b %70
+    f4( es8)
+    d4 r8
+    R4.
+    r8 r c'
+    g4( f8) %75
+    e!4 r8
+    R4.*3
+    r8 r f %80
+    c'4.
+    b4 b8
+    g g g
+    a a, a'
+    f f f %85
+    g4 g,8
+    e'4.
+    f4 f8
+    b,( c4)
+    f, r8 %90
+    R4.
+    r8 r c''
+    h4.
+    c4 r8
+    R4.*3 %97
+    r8 r b!
+    b4.
+    a4 r8 %100
+    R4.
+    r8 r g
+    g4.
+    f4 r8
+    R4.*2 %106
+    b8 b h
+    c c, r
+    c' c cis
+    d d, r %110
+    d d d
+    c!4.
+    f4 b,8
+    d c4
+    f8 r f %115
+    b( c4)
+    f,8 r f
+    b([ c c,)]
+    f4 r8
+    R4.*12 \noBreak %131
+    R4.\fermata \bar "||"
+    R4.*9 %141
+    c'4.
+    b8 a r
+    R4.
+    f4 r8 %145
+    h,4 r8
+    c c' b!
+    as([ g16 f)] es8
+    f g g
+    c, g' r %150
+    c, c' b!
+    as([ g16 f)] es8
+    f g g
+    c4.
+    b! %155
+    a!
+    b8 b, e!
+    f f, r
+    R4.*2 %160
+    es'!8 es e
+    f f, r
+    f' f fis
+    g g, r
+    g' g g %165
+    f!4.
+    b4 es,8
+    g f4
+    b,8 r b
+    es( f4) %170
+    b,8 r b
+    es( f4)
+    b, r8
+    R4.*19 \markDaCapo \bar "||" %192 finis
+  }
+}
+
+MorereBassoLyrics = \lyricmode {
+  Vim co -- hi -- be %3
+  per -- fi -- de,
+  %5
+  in --
+  i -- que ty --
+  ran -- ne,
+
+  proh %15
+  poe -- na,
+
+  cum %20
+  ho -- ste,
+  cum
+  fra -- tre
+
+  i -- ta cer -- %26
+  ta -- vit,
+  i -- ta cer --
+  ta -- vit,
+  i -- ta cer -- %30
+  ta --
+  _ vit,
+  cer -- ta --
+  vit, cer --
+  ta -- %35
+  vit, cer --
+  ta --
+  vit.
+
+  Vim co -- hi -- be %53
+  per -- fi -- de,
+  %55
+  in --
+  i -- que ty --
+  ran -- ne,
+
+  in -- %60
+  i -- que ty --
+  ran -- ne,
+
+  proh %70
+  poe --
+  na,
+
+  proh
+  poe -- %75
+  na,
+
+  quis %80
+  un --
+  quam, quis
+  un -- quam cum
+  ho -- ste, quis
+  un -- quam cum %85
+  fra -- tre
+  i --
+  ta cer --
+  ta --
+  vit, %90
+
+  proh
+  poe --
+  na,
+
+  cum %98
+  ho --
+  ste, %100
+
+  cum
+  fra --
+  tre
+
+  i -- ta cer -- %107
+  ta -- vit,
+  i -- ta cer --
+  ta -- vit, %110
+  i -- ta cer --
+  ta --
+  _ vit,
+  cer -- ta --
+  vit, cer -- %115
+  ta --
+  vit, cer --
+  ta --
+  vit.
+
+  Proh %142
+  Di -- i,
+
+  quis, %145
+  quis
+  un -- quam vel
+  ho -- stem
+  i -- ta a --
+  ma -- vit, %150
+  un -- quam vel
+  fra -- trem
+  i -- ta a --
+  ma --
+  _ %155
+  _
+  _ vit, a --
+  ma -- vit,
+
+  i -- ta a -- %161
+  ma -- vit,
+  i -- ta a --
+  ma -- vit,
+  i -- ta a -- %165
+  ma --
+  _ vit,
+  a -- ma --
+  vit, a --
+  ma -- %170
+  vit, a --
+  ma --
+  vit. %173 finis
+}

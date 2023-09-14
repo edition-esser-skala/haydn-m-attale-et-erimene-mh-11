@@ -274,3 +274,247 @@ AliquamTenoreLyrics = \lyricmode {
   _ %155
   re. %156 finis
 }
+
+MorereTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key f \major \time 3/8 \autoBeamOff \tempoMorere
+    R4.*8 %8
+    \mvTr c4.\pE^\soloE
+    es~ %10
+    es8. d16 c8
+    c h? r
+    R4.
+    r8 r d
+    e!16([ f)] g8 r %15
+    R4.*4
+    r8 r h, %20
+    c h r
+    r r h
+    c h r
+    R4.
+    c8 b!16([ a)] g([ f)] %25
+    d'4.~
+    d8[ c16 h a g]
+    e'4.~
+    e8[ d16 c h? a]
+    f'4.~ %30
+    f16[ e d c h8]
+    c[ e] f
+    d c([ h)]\trillE
+    c e4
+    \tuplet 3/2 8 { f16([ e d] } c8[ h)]\trill %35
+    c e4
+    \tuplet 3/2 8 { f16([ e d] } c8[ h)]\trill
+    c r r
+    R4.*23 %61
+    r8 r c
+    f4.
+    e4 b8
+    \appoggiatura b as4. %65
+    g4 r8
+    R4.
+    r8 r c
+    c4( \grace { c32[ d] } es8)
+    d4 r8 %70
+    R4.
+    r8 r d
+    d4( \grace { d32[ e!] } f8)
+    e4 r8
+    R4.*5 %79
+    r8 r f, %80
+    es'4.
+    d4 d8
+    d d d
+    c c c
+    c c c %85
+    b4 b8
+    b4.
+    a4 a8
+    \tuplet 3/2 8 { d16([ c b] } a8[ g)]\trillE
+    f4 c'8 %90
+    f4.
+    e4 r8
+    R4.*5 %97
+    r8 r d
+    d4.
+    c4 r8 %100
+    R4.
+    r8 r b
+    b4.
+    a4 r8
+    c b16([ a)] g([ f)] %105
+    d'4.~
+    d8[ c16 b a g]
+    e'!4.~
+    e8[ d16 c b a]
+    f'4.~ %110
+    f8[ e16 d c b]
+    g'[ f e d c b]
+    a8[ f'] d
+    b a([ g)]\trill
+    f c'4 %115
+    \tuplet 3/2 8 { d16([ c b] } a8[ g)]\trill
+    f f'4
+    \tuplet 3/2 8 { d16([ c b] } a8[ g)]\trill
+    f4 r8
+    R4.*12 \noBreak %131
+    R4.\fermata \bar "||"
+    b4 f'8 \noBreak
+    es d c
+    b f f' %135
+    es d c
+    b f r
+    R4.*5 %142
+    r8 r c'
+    e! f r
+    f4 r8 %145
+    f4 r8
+    es es es
+    es8.([ f16)] g8
+    f es d
+    es d r %150
+    c c c
+    c8.([ d16)] es8
+    d c h
+    c4.~
+    c~ %155
+    c~
+    c8 b! b
+    b a r
+    R4.
+    b8 a16([ g)] f([ es)] %160
+    c'4.~
+    c8[ b16 a g f]
+    d'4.~
+    d8[ c16 b a g]
+    es'4.~ %165
+    es16[ d c b a8]
+    b[ d] es
+    c b([ a)]\trillE
+    b d4
+    \tuplet 3/2 8 { es16([ d c] } b8[ a)]\trillE %170
+    b d4
+    \tuplet 3/2 8 { es16([ d c] } b8[ a)]\trillE
+    b4 r8
+    R4.*19 \markDaCapo \bar "||" %192 finis
+  }
+}
+
+MorereTenoreLyrics = \lyricmode {
+  Ah, %9
+  pa -- %10
+  cem nunc
+  pe -- to,
+
+  proh
+  do -- lor, %15
+
+  cum %20
+  ho -- ste,
+  cum
+  fra -- tre
+
+  i -- ta __ cer -- %25
+  ta --
+
+  _
+
+  _ %30
+
+  _ vit,
+  cer -- ta --
+  vit, cer --
+  ta -- %35
+  vit, cer --
+  ta --
+  vit.
+
+  Ah, %62
+  pa --
+  cem nunc
+  pe -- %65
+  to,
+
+  proh
+  do --
+  lor, %70
+
+  proh
+  do --
+  lor,
+
+  quis %80
+  un --
+  quam, quis
+  un -- quam cum
+  ho -- ste, quis
+  un -- quam cum %85
+  fra -- tre
+  i --
+  ta cer --
+  ta --
+  vit, proh %90
+  do --
+  lor,
+
+  cum %98
+  ho --
+  ste, %100
+
+  cum
+  fra --
+  tre
+  i -- ta __ cer -- %105
+  ta --
+
+  _
+
+  _ %110
+
+  _
+  _ vit,
+  cer -- ta --
+  vit, cer -- %115
+  ta --
+  vit, cer --
+  ta --
+  vit.
+
+  Ast vel %133
+  lo -- qui con --
+  ce -- de, vel %135
+  lo -- qui con --
+  ce -- de,
+
+  proh %143
+  a -- stra,
+  quis, %145
+  quis
+  un -- quam vel
+  ho -- stem
+  i -- ta a --
+  ma -- vit, %150
+  un -- quam vel
+  fra -- trem
+  i -- ta a --
+  ma --
+
+  vit, a -- %157
+  ma -- vit,
+
+  i -- ta a -- %160
+  ma --
+
+  _
+
+  _ %165
+
+  _ vit,
+  a -- ma --
+  vit, a --
+  ma -- %170
+  vit, a --
+  ma --
+  vit. %173 finis
+}

@@ -688,3 +688,202 @@ FelicemViolinoI = {
     fis r \markDaCapo \bar "||" %175 finis
   }
 }
+
+MorereViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/8 \tempoMorere
+    f4.\pE
+    b8 a c
+    d d, e
+    f f f
+    a c4 %5
+    g8 c4
+    a8 c4
+    g8 c4
+    es d8
+    c4. %10
+    es
+    es8 d d
+    c fis4
+    g8 g,4
+    c16 d e!4 %15
+    d c8
+    c a'4
+    c,8 g'4
+    g,4.~
+    g~ %20
+    g
+    es8 d4
+    es8 d4
+    c'4.
+    c %25
+    d
+    d
+    e
+    e
+    f %30
+    f
+    e8 c a
+    f16 d c8([ h)]
+    c g'4
+    a16 f e g f d %35
+    c8 g'4
+    a16 f d g f d
+    c g' e\f c' g e'
+    c g' e g c g
+    a g f e d c %40
+    h g d c h a
+    g4 r8
+    g''4.
+    fis
+    f %45
+    e4 r8
+    a,16 a' g f e d
+    c4 r8
+    a16 a' g f e d
+    c c g c e, g %50
+    c,4 e'8\p
+    f e g
+    f4.
+    e
+    fis8 d fis %55
+    g d g
+    fis d fis
+    g d g
+    e c e
+    f! c f %60
+    e c e
+    f c c
+    f4.
+    e4 b8
+    as4. %65
+    g4 c8
+    f h,4
+    c4.
+    f~
+    f~ %70
+    f~
+    f
+    g~
+    g~
+    g~ %75
+    g
+    f
+    e8 c g'
+    g4.
+    f %80
+    f
+    f
+    b
+    a
+    a %85
+    g
+    g
+    f
+    b,8 a g
+    f4 c'8 %90
+    f4.
+    e4 c8
+    f4.
+    e4 c8
+    f4. %95
+    e
+    c'
+    b!
+    d,
+    c %100
+    a'
+    g
+    b,
+    a
+    c %105
+    d
+    g,
+    g
+    a
+    a %110
+    b
+    b
+    a8 f' d
+    b16 g \once \slurDashed f8([ e])
+    f c'4 %115
+    d16 b a c b g
+    f8 c'4
+    d16 b a c b g
+    f c' a\f f' c a'
+    f c' c c c c %120
+    d c b a g f
+    e c g f e d
+    c4 r8
+    c''4.
+    h %125
+    b
+    a4 r8
+    d,16 d' c b a g
+    f4 r8
+    d16 d' c b a g %130
+    f f c c a a \noBreak
+    f4\fermata r8 \bar "||"
+    b16\p f' d f b f \noBreak
+    g, es' f, d' es, c'
+    d, b' f b f' d %135
+    g, es' f, d' es, c'
+    d, b' f b f' d
+    b, b' g b es b
+    b, f' d f b f
+    d f es a c a %140
+    b f d'\f b b' e,!
+    f,\p c' a c f c
+    g e' a, c f c
+    g b a c f c
+    f, c' as c f c %145
+    h, g' d g d' g,
+    c, g' es g c g
+    c, as' c, g' c g
+    f d' es, c' d, h'
+    es, c' d, h' d h %150
+    c, g' es g c g
+    c, as' c, g' c g
+    f d' es, c' d, h'
+    c, g' es g c g
+    c, g' es g c g %155
+    c, f es f c' es,
+    b es d f b d,
+    c b' a c f a,
+    b, f' d f b f
+    b, g' es g b g %160
+    c, g' es g c g
+    c, a' f a c a
+    d, a' f a d a
+    d, b' g b d b
+    es, b' g b es b %165
+    es, c' a c es c
+    f, d' d, b' b, g'
+    b es f ,d' f, c'
+    d f b, f' b f
+    g, es' f, d' es, c' %170
+    d f b, f' b f
+    g, es' f, d' f, c'
+    b, f' d\f b' f d'
+    b f' f f f f
+    b, g' g g g g %175
+    c, g' g g g g
+    c, a'! a a a a
+    c, b' b b b b
+    c, a' a a a a
+    c, b' b b b b %180
+    a g f e! d c
+    d c b a g f
+    c4 r8
+    c''4.
+    h %185
+    b
+    a4 r8
+    d,16 d' c b a g
+    f4 r8
+    d16 d' c b a g %190
+    f f c c a a
+    f4 r8 \markDaCapo \bar "||" %192 finis
+  }
+}
