@@ -210,3 +210,38 @@ QuamBonumAltoLyrics = \lyricmode {
   scep -- tra ut
   ma -- ne -- ant. %112 finis
 }
+
+NuncTandemAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoNuncTandem
+    r4 \mvTr c'\pE^\soloE a8 a16 a b8 c
+    c8. g16 g4 c, c8 d
+    e8. e16 e8 f g4. a8
+    b4 c8 g b a \clef bass r c,
+    c8. es,16 es4 es8 es16 es es8 f16 c %5
+    es8 d b' g e e e f
+    f c r4 \clef "treble_8" d'8. g,16 g4
+    g8 g16 g g8 f16 g f8. e16 e8 e
+    a a16 a g8 a g f \clef bass r a
+    a16 d, d8 a' d16 a b8 b r g %10
+    c4 b8 c b a \clef "treble_8" r d
+    c h \clef treble r c' c16 g g8 r4
+    R1\fermata \bar "|." %13 finis
+  }
+}
+
+NuncTandemAltoLyrics = \lyricmode {
+  Nunc tan -- dem ten -- ta -- bo
+  ul -- ti -- ma al -- tum in
+  vi -- sce -- ra de -- fi -- gam
+  fra -- tri mue -- ro -- nem. Ah!
+  At -- ta -- le me -- li -- us con -- su -- le %5
+  vi -- ta en me fra -- tri de -- fen --
+  so -- rem. Nu -- mi -- na
+  quas in an -- gu -- sti -- as re -- di -- go -- rant
+  thro -- ni aut e -- go per -- dor. Ah,
+  de -- si -- ne, de -- si -- ne tan -- dem in %10
+  fra -- tre sae -- vi -- re. Ah
+  fra -- ter os com -- pri -- me. %12 finis
+}

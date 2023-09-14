@@ -1384,3 +1384,39 @@ FelicemBassFigures = \figuremode {
   q4 q
   q2 %175 finis
 }
+
+NuncTandemBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \tempoNuncTandem
+    \mvTr f1\pE-\soloE
+    e
+    e
+    e2 f
+    a,1 %5
+    b2 b
+    r4 c h2
+    h c
+    cis d
+    fis g %10
+    e f
+    f r4 r8 g
+    c,4 r r2\fermata \bar "|." %13 finis
+  }
+}
+
+NuncTandemBassFigures = \figuremode {
+  r1
+  <6>
+  r
+  <6 5->1
+  q %5
+  r2 <4! 2>
+  r <6>
+  r1
+  <6>
+  q2 <_-> %10
+  <6>1
+  <4! 2>2.. <_!>8
+  r1 %13 finis
+}

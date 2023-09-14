@@ -328,57 +328,87 @@
   %     \midi { \tempo 4 = 80 }
   %   }
   % }
+  % \bookpart {
+  %   \section "8" "Aria" "Felicem te principem"
+  %   \addTocLabel "Felicem"
+  %   \paper {
+  %     top-system-spacing.basic-distance = #10
+  %     top-system-spacing.minimum-distance = #10
+  %     top-markup-spacing.basic-distance = #0
+  %     top-markup-spacing.minimum-distance = #0
+  %     markup-system-spacing.basic-distance = #10
+  %     markup-system-spacing.minimum-distance = #10
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #3
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \setGroupDistance #11 #11 } <<
+  %         \new GrandStaff \with { \setGroupDistance #11 #11 } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \FelicemViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \FelicemViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \FelicemViola
+  %         }
+  %       >>
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \FelicemBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \FelicemBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \FelicemBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \FelicemBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 110 }
+  %   }
+  % }
   \bookpart {
-    \section "8" "Aria" "Felicem te principem"
-    \addTocLabel "Felicem"
+    \section "9" "Recitativo" "Nunc tandem tentabo"
+    \addTocLabel "nunctandem"
     \paper {
-      top-system-spacing.basic-distance = #10
-      top-system-spacing.minimum-distance = #10
-      top-markup-spacing.basic-distance = #0
-      top-markup-spacing.minimum-distance = #0
-      markup-system-spacing.basic-distance = #10
-      markup-system-spacing.minimum-distance = #10
-      system-system-spacing.basic-distance = #17
-      system-system-spacing.minimum-distance = #17
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
       systems-per-page = #3
     }
     \score { %\articulate
       <<
-        \new StaffGroup \with { \setGroupDistance #11 #11 } <<
-          \new GrandStaff \with { \setGroupDistance #11 #11 } <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \FelicemViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \FelicemViolinoII
-            }
-          >>
+        \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "vla"
-            \FelicemViola
+            \set Staff.instrumentName = \markup \center-column { "A" "T" "B" }
+            \new Voice = "Alto" { \dynamicUp \NuncTandemAlto }
           }
-        >>
-        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \FelicemBasso }
-          }
-          \new Lyrics \lyricsto Basso \FelicemBassoLyrics
+          \new Lyrics \lyricsto Alto \NuncTandemAltoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \FelicemBassoContinuo
+            \NuncTandemBassoContinuo
           }
         >>
-        \new FiguredBass { \FelicemBassFigures }
+        \new FiguredBass { \NuncTandemBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 110 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }
