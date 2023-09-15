@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "vla")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -25,8 +25,8 @@
           \new Lyrics \lyricsto Basso \InimicaBassoLyrics
         >>
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \InimicaViolinoI
+          \set Staff.instrumentName = "Viola"
+          \InimicaViola
         }
       >>
     }
@@ -36,19 +36,10 @@
     \addTocLabel "vixit"
     \score {
       <<
-        \new Staff { \VixitViolinoI }
+        \new Staff { \VixitViola }
       >>
     }
-    \tacet "section" "Pantaleon! Omnem absterge"
-  }
-  \bookpart {
-    \section "4" "Aria" "Si aliquam mei tenes imaginem"
-    \addTocLabel "aliquam"
-    \score {
-      <<
-        \new Staff { \AliquamViolinoIeII }
-      >>
-    }
+    \tacet "section" "Pantaleon! Omnem absterge · Si aliquam"
   }
   \bookpart {
     \section "5" "Recitativo" "Io triumphate socii"
@@ -63,7 +54,7 @@
           }
           \new Lyrics \lyricsto Alto \TriumphateAltoLyrics
         >>
-        \new Staff { \TriumphateViolinoI }
+        \new Staff { \TriumphateViola }
       >>
     }
   }
@@ -72,7 +63,7 @@
     \addTocLabel "quambonum"
     \score {
       <<
-        \new Staff { \QuamBonumViolinoI }
+        \new Staff { \QuamBonumViola }
       >>
     }
   }
@@ -89,7 +80,7 @@
           }
           \new Lyrics \lyricsto Basso \ApplaudoBassoLyrics
         >>
-        \new Staff { \ApplaudoViolinoI }
+        \new Staff { \ApplaudoViola }
       >>
     }
   }
@@ -98,28 +89,9 @@
     \addTocLabel "felicem"
     \score {
       <<
-        \new Staff { \FelicemViolinoI }
+        \new Staff { \FelicemViola }
       >>
     }
-    \tacet "section" "Nunc tandem tentabo"
-  }
-  \bookpart {
-    \section "10" "Aria" "Morere impie"
-    \addTocLabel "morere"
-    \score {
-      <<
-        \new Staff { \MorereViolinoI }
-      >>
-    }
-  }
-  \bookpart {
-    \section "11" "Choro" "Io triumphate populi"
-    \addTocLabel "populi"
-    \paper { page-count = #1 }
-    \score {
-      <<
-        \new Staff { \PopuliViolinoI }
-      >>
-    }
+    \tacet "section" "Nunc tandem tentabo · Morere impie · Io triumphate populi"
   }
 }

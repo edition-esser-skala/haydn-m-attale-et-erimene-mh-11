@@ -385,8 +385,8 @@
     \section "9" "Recitativo" "Nunc tandem tentabo"
     \addTocLabel "nunctandem"
     \paper {
-      system-system-spacing.basic-distance = #20
-      system-system-spacing.minimum-distance = #20
+      system-system-spacing.basic-distance = #21
+      system-system-spacing.minimum-distance = #21
       systems-per-page = #3
     }
     \score { %\articulate

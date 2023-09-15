@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -25,8 +25,8 @@
           \new Lyrics \lyricsto Basso \InimicaBassoLyrics
         >>
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \InimicaViolinoI
+          \set Staff.instrumentName = "Violino II"
+          \InimicaViolinoII
         }
       >>
     }
@@ -36,7 +36,7 @@
     \addTocLabel "vixit"
     \score {
       <<
-        \new Staff { \VixitViolinoI }
+        \new Staff { \VixitViolinoII }
       >>
     }
     \tacet "section" "Pantaleon! Omnem absterge"
@@ -63,7 +63,7 @@
           }
           \new Lyrics \lyricsto Alto \TriumphateAltoLyrics
         >>
-        \new Staff { \TriumphateViolinoI }
+        \new Staff { \TriumphateViolinoII }
       >>
     }
   }
@@ -72,7 +72,7 @@
     \addTocLabel "quambonum"
     \score {
       <<
-        \new Staff { \QuamBonumViolinoI }
+        \new Staff { \QuamBonumViolinoII }
       >>
     }
   }
@@ -89,7 +89,7 @@
           }
           \new Lyrics \lyricsto Basso \ApplaudoBassoLyrics
         >>
-        \new Staff { \ApplaudoViolinoI }
+        \new Staff { \ApplaudoViolinoII }
       >>
     }
   }
@@ -98,7 +98,7 @@
     \addTocLabel "felicem"
     \score {
       <<
-        \new Staff { \FelicemViolinoI }
+        \new Staff { \FelicemViolinoII }
       >>
     }
     \tacet "section" "Nunc tandem tentabo"
@@ -108,7 +108,7 @@
     \addTocLabel "morere"
     \score {
       <<
-        \new Staff { \MorereViolinoI }
+        \new Staff { \MorereViolinoII }
       >>
     }
   }
@@ -118,7 +118,7 @@
     \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \PopuliViolinoI }
+        \new Staff { \PopuliViolinoII }
       >>
     }
   }

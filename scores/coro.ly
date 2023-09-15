@@ -1,45 +1,45 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
+#(define option-instrument-name "bc")
 \include "score_settings/coro.ly"
 
 \book {
   \bookpart {
-    \section "1" "First"
-    \addTocEntry
-    \paper { indent = 2\cm }
+    \section "11" "Choro" "Io triumphate populi"
+    \addTocLabel "populi"
     \score {
       <<
-        \new ChoirStaff <<
+        \new ChoirStaff  <<
           \new Staff {
             \set Staff.instrumentName = "Soprano"
-            \new Voice = "Soprano" { \dynamicUp \xxxSoprano }
+            \new Voice = "Soprano" { \dynamicUp \PopuliSoprano }
           }
-          \new Lyrics \lyricsto Soprano \xxxSopranoLyrics
+          \new Lyrics \lyricsto Soprano \PopuliSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Alto"
-            \new Voice = "Alto" { \dynamicUp \xxxAlto }
+            \new Voice = "Alto" { \dynamicUp \PopuliAlto }
           }
-          \new Lyrics \lyricsto Alto \xxxAltoLyrics
+          \new Lyrics \lyricsto Alto \PopuliAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Tenore"
-            \new Voice = "Tenore" { \dynamicUp \xxxTenore }
+            \new Voice = "Tenore" { \dynamicUp \PopuliTenore }
           }
-          \new Lyrics \lyricsto Tenore \xxxTenoreLyrics
+          \new Lyrics \lyricsto Tenore \PopuliTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \xxxBasso }
+            \new Voice = "Basso" { \dynamicUp \PopuliBasso }
           }
-          \new Lyrics \lyricsto Basso \xxxBassoLyrics
+          \new Lyrics \lyricsto Basso \PopuliBassoLyrics
         >>
         \new Staff {
-          \set Staff.instrumentName = "Organo"
-          \xxxOrgano
+          \set Staff.instrumentName = \markup \center-column { "Basso" "continuo" }
+          \PopuliBassoContinuo
         }
-        \new FiguredBass { \xxxBassFigures }
+        \new FiguredBass { \PopuliBassFigures }
       >>
     }
   }

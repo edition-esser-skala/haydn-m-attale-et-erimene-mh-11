@@ -6,21 +6,21 @@
 
 \book {
   \bookpart {
-    \section "1" "First"
+    \section "2" "Aria" "Vixit, heu vixit Eumenes"
     \addTocEntry
     \paper { indent = 2\cm }
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \transposedName "Corno" "C" ""
+            \set GrandStaff.instrumentName = \transposedName "Corno" "D" ""
             \new Staff {
               \set Staff.instrumentName = "I"
-              \xxxCornoI
+              \VixitCornoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \xxxCornoII
+              \VixitCornoII
             }
           >>
         >>
